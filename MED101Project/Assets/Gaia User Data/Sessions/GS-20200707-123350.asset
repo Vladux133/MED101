@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e251860fcd970734c9f14ebd98a146c3, type: 3}
+  m_Name: GS-20200707-123350
+  m_EditorClassIdentifier: 
+  m_name: Session 20200707-123350
+  m_description: 'Rocking out at Creativity Central!
+
+
+    If you like Gaia please
+    consider rating it :)'
+  m_previewImage: {fileID: 0}
+  m_dateCreated: 7/7/2020 12:33:50 PM
+  m_terrainWidth: 512
+  m_terrainDepth: 1000
+  m_terrainHeight: 512
+  m_seaLevel: 80
+  m_isLocked: 0
+  m_previewImageBytes: 
+  m_previewImageWidth: 0
+  m_previewImageHeight: 0
+  m_operations:
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 512'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 12:33:50 PM
+    scriptableObjectAssetGUID: f3cc9ab7dc94b9541afdb938225c8bb8
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 512'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 12:39:38 PM
+    scriptableObjectAssetGUID: afe39c11d23245f4bab1f87ed7cd791d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Chumash Valley
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 123350
+    m_operationDateTime: 7/7/2020 12:41:49 PM
+    scriptableObjectAssetGUID: eba536ee63287a544a2e7045897d6f6e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 123350
+    m_operationDateTime: 7/7/2020 12:41:50 PM
+    scriptableObjectAssetGUID: 653ef4e4b689a6444994ccffc501b373
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 512'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 12:41:55 PM
+    scriptableObjectAssetGUID: 8cce5da0b8573be4f9452014d44f5837
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Flatten - 1 Terrains
+    m_operationType: 1
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - World Map_0_0-20200707 - 124155
+    m_operationDateTime: 7/7/2020 12:42:41 PM
+    scriptableObjectAssetGUID: 1495c9d3e3224bc4dbfb16359f7b3aa1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Chumash Valley
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 123350
+    - World Map_0_0-20200707 - 124155
+    m_operationDateTime: 7/7/2020 12:42:48 PM
+    scriptableObjectAssetGUID: 95a25c5695e22154aab6f03462ac0fd4
+    m_isFoldedOut: 1
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Chumash Valley
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 123350
+    - World Map_0_0-20200707 - 124355
+    m_operationDateTime: 7/7/2020 12:44:51 PM
+    scriptableObjectAssetGUID: 401d6f6d6c4d10c4e932b165d7277eda
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - NoiseMask
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 123350
+    - World Map_0_0-20200707 - 124355
+    m_operationDateTime: 7/7/2020 12:47:15 PM
+    scriptableObjectAssetGUID: acc54bc0175194944a94288c25f787e9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  m_terrainMinMaxCache:
+  - guid: 2eee93e5757e5f34baf911a9fb9b9000
+    isWorldmap: 1
+    recalculate: 0
+    min: 0
+    max: 0
+  - guid: 9e141eddf9f20434590d2a6688edf2fd
+    isWorldmap: 0
+    recalculate: 0
+    min: 0
+    max: 44.6121
+  - guid: befcbcc0463a2fa479e3fd31d69d450e
+    isWorldmap: 1
+    recalculate: 0
+    min: 0
+    max: 0
+  - guid: e5c575a649586684aa58e7781b377a17
+    isWorldmap: 1
+    recalculate: 1
+    min: 6.703534
+    max: 44.56522
+  m_bakedMaskCacheEntries: []
+  m_worldBiomeMaskSettings: {fileID: 0}

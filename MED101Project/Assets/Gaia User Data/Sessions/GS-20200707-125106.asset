@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e251860fcd970734c9f14ebd98a146c3, type: 3}
+  m_Name: GS-20200707-125106
+  m_EditorClassIdentifier: 
+  m_name: Session 20200707-125106
+  m_description: 'Rocking out at Creativity Central!
+
+
+    If you like Gaia please
+    consider rating it :)'
+  m_previewImage: {fileID: 0}
+  m_dateCreated: 7/7/2020 12:51:06 PM
+  m_terrainWidth: 512
+  m_terrainDepth: 1000
+  m_terrainHeight: 512
+  m_seaLevel: 23
+  m_isLocked: 0
+  m_previewImageBytes: 
+  m_previewImageWidth: 0
+  m_previewImageHeight: 0
+  m_operations:
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 512'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 12:51:06 PM
+    scriptableObjectAssetGUID: 31e03fd9f5722de44888ee32035d6942
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Flatten - 1 Terrains
+    m_operationType: 1
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 125106
+    m_operationDateTime: 7/7/2020 12:52:49 PM
+    scriptableObjectAssetGUID: 1c4fd675398c7e645a88fda668058710
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Flatten - 1 Terrains
+    m_operationType: 1
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 125106
+    m_operationDateTime: 7/7/2020 12:52:51 PM
+    scriptableObjectAssetGUID: eaeea4a99037ab84dada70be9aeb605e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 512'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 12:55:52 PM
+    scriptableObjectAssetGUID: d183e4fc49433c54f92aab3c5fb8b669
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Default Terrain Generator Settings(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 125106
+    - World Map_0_0-20200707 - 125552
+    m_operationDateTime: 7/7/2020 12:56:27 PM
+    scriptableObjectAssetGUID: 2072d073fcdd5704cbfb5bbb8dea352e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Default Terrain Generator Settings(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 125106
+    - World Map_0_0-20200707 - 125552
+    m_operationDateTime: 7/7/2020 12:57:34 PM
+    scriptableObjectAssetGUID: 5a1e9356b2a7f2d4cb97e1f8b5e60a7b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  m_terrainMinMaxCache:
+  - guid: 8500a5bfc27c812499a64ca4e4199623
+    isWorldmap: 0
+    recalculate: 0
+    min: 0
+    max: 38.111702
+  - guid: 62757f483395c1242bc0d2b218b69d8f
+    isWorldmap: 1
+    recalculate: 0
+    min: 0
+    max: 38.096077
+  m_bakedMaskCacheEntries: []
+  m_worldBiomeMaskSettings: {fileID: 0}

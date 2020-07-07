@@ -1,0 +1,1191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e251860fcd970734c9f14ebd98a146c3, type: 3}
+  m_Name: GS-20200707-130044
+  m_EditorClassIdentifier: 
+  m_name: Session 20200707-130044
+  m_description: 'Rocking out at Creativity Central!
+
+
+    If you like Gaia please
+    consider rating it :)'
+  m_previewImage: {fileID: 0}
+  m_dateCreated: 7/7/2020 1:00:44 PM
+  m_terrainWidth: 512
+  m_terrainDepth: 1000
+  m_terrainHeight: 512
+  m_seaLevel: 32
+  m_isLocked: 0
+  m_previewImageBytes: 
+  m_previewImageWidth: 0
+  m_previewImageHeight: 0
+  m_operations:
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 512'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 1:00:45 PM
+    scriptableObjectAssetGUID: cd6a31eeff3c9d14bb232c1ded647548
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 512'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 1:01:04 PM
+    scriptableObjectAssetGUID: c1d19ee6489a48948bc170c980131511
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    - World Map_0_0-20200707 - 130104
+    m_operationDateTime: 7/7/2020 1:13:59 PM
+    scriptableObjectAssetGUID: 2c070a7d4ac356846b0828b447adad34
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Default Terrain Generator Settings(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    - World Map_0_0-20200707 - 130104
+    m_operationDateTime: 7/7/2020 1:14:13 PM
+    scriptableObjectAssetGUID: f72efb9c3923c394d8e49905845ba41b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Default Terrain Generator Settings(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    - World Map_0_0-20200707 - 130104
+    m_operationDateTime: 7/7/2020 1:15:47 PM
+    scriptableObjectAssetGUID: c7a03f2f05135514cb2ee954d20c0180
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Rock Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    - World Map_0_0-20200707 - 130104
+    m_operationDateTime: 7/7/2020 1:16:23 PM
+    scriptableObjectAssetGUID: 7514ec0a1b515434d829ce335d5cb021
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    - World Map_0_0-20200707 - 130104
+    m_operationDateTime: 7/7/2020 1:16:51 PM
+    scriptableObjectAssetGUID: 5fa04d47e05f73a4aab794fdc64a3d59
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    - World Map_0_0-20200707 - 130104
+    m_operationDateTime: 7/7/2020 1:16:52 PM
+    scriptableObjectAssetGUID: b2643025e3b42d4409f78de4ffd83ac1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mesa 6
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:33 PM
+    scriptableObjectAssetGUID: a71274975187b4347857f9caf2b1618c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mesa 14
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:34 PM
+    scriptableObjectAssetGUID: 53c7a5ec90d96984ca4ee7a020aeec18
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Craggy Mesa 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:35 PM
+    scriptableObjectAssetGUID: dfd54a52d79a8f544b3899c1b69fac82
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mesa 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:35 PM
+    scriptableObjectAssetGUID: 3fd8e1d9f82cb3a41b1d6e6a70aaf06f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mesa Field 0924 a
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:36 PM
+    scriptableObjectAssetGUID: c07fa7fec6eed41458d635f42578e39e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 1910 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:36 PM
+    scriptableObjectAssetGUID: 6a88de92d293ec54cadd6ce4e8d5dbd4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 14
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:37 PM
+    scriptableObjectAssetGUID: f8d6976b0e4dc7942994e0b532618a6f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills_0209_1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:37 PM
+    scriptableObjectAssetGUID: 38eccdb94ed7cf74599328b0be145145
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:38 PM
+    scriptableObjectAssetGUID: 7f08606772f6cd340b62e951617ec8db
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 1910 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:38 PM
+    scriptableObjectAssetGUID: 8e525929e2ed709499ae411bbbd9cc5d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 10
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:39 PM
+    scriptableObjectAssetGUID: c4e28ed237bbcd148925054480c6a9e7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 13
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:40 PM
+    scriptableObjectAssetGUID: 166b9ae88f9deff4ea26dcd81dc050e6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Yosemite Hills 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:40 PM
+    scriptableObjectAssetGUID: de2fed5c6cb8e9442843f3a6eea7d7ea
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:41 PM
+    scriptableObjectAssetGUID: accc1e7bb946c7f449ce26ceb1a531ba
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 10
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:41 PM
+    scriptableObjectAssetGUID: 46653c386107b904392b1ac5c050ba7f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Hills 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:42 PM
+    scriptableObjectAssetGUID: 54d7e0b1a03800a4b9963df1016aa68a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 6
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:43 PM
+    scriptableObjectAssetGUID: 3c65e2327e0aede4284f5cf167aa8549
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 16
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:43 PM
+    scriptableObjectAssetGUID: 17840ff72b7681844a0966df47e5deb0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 16
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:44 PM
+    scriptableObjectAssetGUID: 3a579af3b67be6947b66b321f0794b4b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 16
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:45 PM
+    scriptableObjectAssetGUID: 6ef65810572d97747939df7a768d5f89
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 1910 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:45 PM
+    scriptableObjectAssetGUID: ef05d4d0bed0b7842a3ea6621f078be8
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Rugged Hills 1810 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:46 PM
+    scriptableObjectAssetGUID: e56e2435a5fe8284a84ff3bdc9d75e3f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills_0209_1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:46 PM
+    scriptableObjectAssetGUID: 75656fed1cbff2b4a96febc3e62964e2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 1006 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:47 PM
+    scriptableObjectAssetGUID: fcc850b28c9e48f4ba6a7dead52f08b3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:47 PM
+    scriptableObjectAssetGUID: 3c56248d343904d44bce87ecf161df0d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:48 PM
+    scriptableObjectAssetGUID: 32b4bb4b8cf2b2f48aa607f493b0c84d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:49 PM
+    scriptableObjectAssetGUID: 1bc7c132e55efbd469501f5c25a3dcaf
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 14
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:49 PM
+    scriptableObjectAssetGUID: 3631c46d5c125aa41ad58e8fb8a60c0c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:50 PM
+    scriptableObjectAssetGUID: eea70fa4207d6614a9b94badeea08ee9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:51 PM
+    scriptableObjectAssetGUID: fbd9aec1586ae974fa8c9b1159e3118e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 6
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:51 PM
+    scriptableObjectAssetGUID: 81f9a3d1a6c568d44abe1b410a363b03
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:52 PM
+    scriptableObjectAssetGUID: d727c6036c071cb4c8775f95ce985a8c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:52 PM
+    scriptableObjectAssetGUID: bb3a4b9f86802b845a5da7b6ab8cac0a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 1006 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:53 PM
+    scriptableObjectAssetGUID: 235fce4ea17e3df4a8e95ec304bc0226
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 1810 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:53 PM
+    scriptableObjectAssetGUID: b3b6d711e349eac48a1d9d715c66b05a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Rugged Hills 1810 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:54 PM
+    scriptableObjectAssetGUID: bc082f23229a4f04b880ba7d70d2dff0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 7
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:55 PM
+    scriptableObjectAssetGUID: 6ecd7299435c49f4980953be55fedfee
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills_0209_1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:56 PM
+    scriptableObjectAssetGUID: 688c4f2039ac18f4a9d9814a75ceac30
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:56 PM
+    scriptableObjectAssetGUID: 9f918f0a9ca132e41b39036b96785fef
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Yosemite Hills 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:57 PM
+    scriptableObjectAssetGUID: 817693b8ed54b5e47987739d2a754087
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Hills 13
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:57 PM
+    scriptableObjectAssetGUID: d07f3431d421ec042b8077855cb523e7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Colourful Forest
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:58 PM
+    scriptableObjectAssetGUID: b59ae7d3b5a63f24e9dbe262c6511688
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mountain Field 0924 b
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:58 PM
+    scriptableObjectAssetGUID: b1956d85df4bcf44498fc57fc119ab79
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Low Mountain 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:59 PM
+    scriptableObjectAssetGUID: 240918228f47be74db2737b0d7d1028d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mountain Field 0924 f
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:17:59 PM
+    scriptableObjectAssetGUID: 6b0a545e0b24a214dae48e6dca7c4a2b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mountain 17
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:00 PM
+    scriptableObjectAssetGUID: 40ad5380565bc9f489296cfd8a2385c5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Blue Diamond Hill
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:01 PM
+    scriptableObjectAssetGUID: bf2005e7030c17a4e9191f2c5f34ad4a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mountain_1809_2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:02 PM
+    scriptableObjectAssetGUID: 6176496a4e36c994f86cc23a50b6dc88
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mountain 1006 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:02 PM
+    scriptableObjectAssetGUID: f86a40d6fe8778e4caa749cfe48eca92
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mountain 06
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:03 PM
+    scriptableObjectAssetGUID: f43877b266faf2242b0078a10e3c537c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mountain Field 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:03 PM
+    scriptableObjectAssetGUID: 347dc08d8f0a1654ca2714b83998ab67
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mount Everest
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:04 PM
+    scriptableObjectAssetGUID: 0d13fa940dc91b845acf2a16df8aaf17
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Eroded Mountain 9a
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:04 PM
+    scriptableObjectAssetGUID: c96661484ffc76c4ea7d87b627494600
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mountain 9
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:05 PM
+    scriptableObjectAssetGUID: 921281770dfceb3448356c9451211520
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mountain 01
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:05 PM
+    scriptableObjectAssetGUID: 754c2d583ea5e2942a736929cd5319dd
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Experiment 5
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:06 PM
+    scriptableObjectAssetGUID: b7024f22e2391a747a4e94ce81abe221
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Colourful Forest
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:07 PM
+    scriptableObjectAssetGUID: 58f4bbf050a432040a8210aaeede75ec
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mountain 06
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:07 PM
+    scriptableObjectAssetGUID: 6d039ccbe12e844489acf7034955829c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mountain 13
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:08 PM
+    scriptableObjectAssetGUID: 4dc5f2c649cb59240b6421a6044689c4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mountain 08
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:08 PM
+    scriptableObjectAssetGUID: c2bd4407cebff034aa32c44e11f39600
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mountain_1809_1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:09 PM
+    scriptableObjectAssetGUID: 4de9fa8a9ee3d7c409b693ab60e8358c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Eroded Mountain 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:10 PM
+    scriptableObjectAssetGUID: 8bf6e13b8ca40f54ca6d63e10babbd60
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Experiment 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:10 PM
+    scriptableObjectAssetGUID: e2a88cf37eb65634b989d5b5d7d43385
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - Mountain Field 0924 f
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:11 PM
+    scriptableObjectAssetGUID: 003546f8b9309ec4db21fb5cdfe52e14
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Mountain 04
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:12 PM
+    scriptableObjectAssetGUID: a8322497d1acbfc43b4ad2f3efd999d7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Broken Plains  2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:12 PM
+    scriptableObjectAssetGUID: 25801e2682db2114a8e6b54347dea3dd
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: RaiseHeight - 4k Broken Plains  1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:13 PM
+    scriptableObjectAssetGUID: 9a5a183c28b90e948aed49c6bcb3c6db
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 5
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:13 PM
+    scriptableObjectAssetGUID: d02abaf152248a240be0693127f08fdb
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 6
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:14 PM
+    scriptableObjectAssetGUID: 041f6c8455e47c14591e8bf2cae44c8e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 1801 5
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:14 PM
+    scriptableObjectAssetGUID: 68c2f597f2ff9ca4f95c56b0b61d980e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 1801 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:15 PM
+    scriptableObjectAssetGUID: b6bd626724170204083161fab511df5f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 1801 5
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:16 PM
+    scriptableObjectAssetGUID: f277168faca3b2c498b258e04c3a86a0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Yosemite Valley 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:16 PM
+    scriptableObjectAssetGUID: 71d158394d3b8344d8abc70158b62b48
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 1801 4
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:17 PM
+    scriptableObjectAssetGUID: f2aa01f07b0c02741ab6265a2b58261d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 7
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:18 PM
+    scriptableObjectAssetGUID: a2eca0fbe49c1ac46bbe1c250c8d0834
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 8
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:18 PM
+    scriptableObjectAssetGUID: 4fd63be1a32802741889543fc8f10ffa
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Yosemite Valley 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:19 PM
+    scriptableObjectAssetGUID: 02d0ede827b745e4b9686204568b690b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 6
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:19 PM
+    scriptableObjectAssetGUID: 5e238e3f6a1705b4e90bfffa1e064622
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 6
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:20 PM
+    scriptableObjectAssetGUID: 0abfe2a8145d97b478d0df48effd40c5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 1801 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:20 PM
+    scriptableObjectAssetGUID: 7f73179184e282347b52632d84924691
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:21 PM
+    scriptableObjectAssetGUID: 92b803cb8bb600449b53df1be68468b7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Valley 1801 2
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:22 PM
+    scriptableObjectAssetGUID: b136b31e0c57c5448a32c51b1e2b71de
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - Misissipi 1
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:23 PM
+    scriptableObjectAssetGUID: e6c731d4ac49c564ba6e2a94697e0e1b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - River 13
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:23 PM
+    scriptableObjectAssetGUID: 43b6938cd21c68f489a0d72a7f182803
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: LowerHeight - River Valley 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:24 PM
+    scriptableObjectAssetGUID: 22fee4f777940494b91bea16a4908eab
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Clearing -, AllTerrains, OnlyThisSpawner
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 130044
+    m_operationDateTime: 7/7/2020 1:18:28 PM
+    scriptableObjectAssetGUID: 74085a34e47448e44877620933094100
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 1:18:53 PM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 512'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/7/2020 1:18:54 PM
+    scriptableObjectAssetGUID: b9aa72dfe4e39954c92f805d22c7af0f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:19:28 PM
+    scriptableObjectAssetGUID: d7bf345351717bc428653ba0215d679f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:19:53 PM
+    scriptableObjectAssetGUID: c8ae3fd90c295b44d9a130ea4fac187c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:20:24 PM
+    scriptableObjectAssetGUID: 3766eb361fe4f1a40b0105ae257777f2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:20:26 PM
+    scriptableObjectAssetGUID: f26c1818ae29abb449c6673b3627ff8c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:21:08 PM
+    scriptableObjectAssetGUID: dd5e673c5aa88694b97a5992a6559893
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:21:13 PM
+    scriptableObjectAssetGUID: c7c81cb1e204e4448b104e42a7b28ce5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:23:05 PM
+    scriptableObjectAssetGUID: 530b1062e080974489132ec3d2cba626
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:23:06 PM
+    scriptableObjectAssetGUID: afdd06c376696fd45bbc711238184f6d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:23:10 PM
+    scriptableObjectAssetGUID: a6f8381b0b034a640aaba6044cc93e52
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:23:16 PM
+    scriptableObjectAssetGUID: eb40082cb84f415439292ae75f4a4457
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:23:21 PM
+    scriptableObjectAssetGUID: c88bef8bba6cd144288dfe71b7a923c1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Grass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:25:02 PM
+    scriptableObjectAssetGUID: baf7c79bb50a9b54fb994e6818ff1c06
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Tree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:27:14 PM
+    scriptableObjectAssetGUID: caa435d21a31db1408109e0913dceb14
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:38:15 PM
+    scriptableObjectAssetGUID: 4b2083a5b29b25046bb3ea92958a512a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Rock Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:39:06 PM
+    scriptableObjectAssetGUID: 0db30e7abd328654381ca56c1429382e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: Spawning - Gaia Pro Sample Tree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 1:39:11 PM
+    scriptableObjectAssetGUID: ef1ed276f59b8144aba375e89f1b8dd3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 2:31:45 PM
+    scriptableObjectAssetGUID: 623eb1a9827be1f4a9c84a4446e3ffa5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/7/2020 2:32:01 PM
+    scriptableObjectAssetGUID: bb6c9412c337c104eafef8cd1378b36f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  m_terrainMinMaxCache:
+  - guid: 51a6b7578d125a040b31c03dc1d09730
+    isWorldmap: 1
+    recalculate: 0
+    min: 25.923458
+    max: 62.6757
+  - guid: 29a8284a2666c2c42868aa9f80295656
+    isWorldmap: 0
+    recalculate: 1
+    min: 0
+    max: 69.51987
+  - guid: 7bd8ffd161d448c4fbb709a9f9720d1a
+    isWorldmap: 0
+    recalculate: 0
+    min: 26.001587
+    max: 62.613197
+  m_bakedMaskCacheEntries: []
+  m_worldBiomeMaskSettings: {fileID: 0}
