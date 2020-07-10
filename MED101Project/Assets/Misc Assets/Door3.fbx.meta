@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: M_Door3
-    second: {fileID: 2100000, guid: 973d22b4dd9768343a6389aa46fcf764, type: 2}
+    second: {fileID: 2100000, guid: 349b7facff06bff49ac7bc026a40b117, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
