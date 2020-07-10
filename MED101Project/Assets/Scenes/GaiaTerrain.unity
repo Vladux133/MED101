@@ -4242,7 +4242,7 @@ MonoBehaviour:
   m_sunLightExists: 1
 --- !u!4 &815755725
 Transform:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 10
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
