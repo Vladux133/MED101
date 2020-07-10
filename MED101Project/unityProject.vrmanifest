@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.med101project.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\Documents\\Projects\\Unity\\MED101\\MED101Project\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\Luis\\Documents\\GitHub\\MED101\\MED101Project\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "MED101Project [Testing]"
