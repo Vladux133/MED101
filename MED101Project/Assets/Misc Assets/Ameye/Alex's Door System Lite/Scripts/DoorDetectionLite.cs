@@ -67,11 +67,8 @@ public class DoorDetectionLite : MonoBehaviour
                 // Get access to the 'Door' script attached to the object that was hit
                 DoorRotationLite dooropening = Door.GetComponent<DoorRotationLite>();
 
-                if (Input.GetKey(Character))
-                {
-                    // Open/close the door by running the 'Open' function found in the 'Door' script
-                    if (dooropening.RotationPending == false) StartCoroutine(hit.collider.GetComponent<DoorRotationLite>().Move());
-                }
+                // Open/close the door by running the 'Open' function found in the 'Door' script
+                if (dooropening.RotationPending == false) StartCoroutine(hit.collider.GetComponent<DoorRotationLite>().Move());
             }
 
             else

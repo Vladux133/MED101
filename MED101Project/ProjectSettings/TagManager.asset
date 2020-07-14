@@ -10,6 +10,7 @@ TagManager:
   - PW - Nature
   - Synty Medium Farm
   - Synty Small Farm
+  - Door
   layers:
   - Default
   - TransparentFX
