@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PW_Tree_Spruce_05_Bark
-  m_Shader: {fileID: 4800000, guid: 2a5be6244a7e943a293e107191b935ce, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _PW_SF_GLOBAL_CONTROL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 2800000, guid: cec6b286758180c48a57af8f97d9a96a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 9, y: 9}
         m_Offset: {x: 0, y: 0}
     - _DetailBark:
@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 2800000, guid: 7d833cdaa7e0371438f2a4ba83a0b88f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -148,7 +148,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 66ab6c65fbcceef4687c7280c1ef5feb, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Pine_bark_4k_nrm:
