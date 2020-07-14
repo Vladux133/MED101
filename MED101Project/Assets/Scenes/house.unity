@@ -2912,12 +2912,12 @@ MonoBehaviour:
   onFrozenDistanceThreshold:
     m_PersistentCalls:
       m_Calls: []
-  minAngle: -90
+  minAngle: 0
   freezeOnMin: 1
   onMinAngle:
     m_PersistentCalls:
       m_Calls: []
-  maxAngle: 0
+  maxAngle: -90
   freezeOnMax: 1
   onMaxAngle:
     m_PersistentCalls:
@@ -6580,8 +6580,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.06, y: 0.115821004, z: 0.06564706}
-  m_Center: {x: 0, y: 0.42129546, z: 0.1359887}
+  m_Size: {x: 0.07, y: 0.115821004, z: 0.06564706}
+  m_Center: {x: -0.002, y: 0.42129546, z: 0.1359887}
 --- !u!1 &3740993714467533588
 GameObject:
   m_ObjectHideFlags: 0
