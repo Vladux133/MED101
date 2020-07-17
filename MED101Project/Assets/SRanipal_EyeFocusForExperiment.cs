@@ -13,11 +13,13 @@ namespace ViveSR.anipal.Eye
         private readonly GazeIndex[] GazePriority = new GazeIndex[] { GazeIndex.COMBINE, GazeIndex.LEFT, GazeIndex.RIGHT };
         private static EyeData eyeData = new EyeData();
         private bool eye_callback_registered = false;
-
+        private int _prevFrame;
         private string _currentObject;
         private float _lookedInSec;
         private string _focusFileName;
         private string _dataFileName;
+        [Range(0f,5f),Tooltip("Number of seconds needed to indentify that player payed attention to the object")]
+        public float FocusNumberOfSeconds;
         private void Start()
         {
             if (!SRanipal_Eye_Framework.Instance.EnableEye)
@@ -27,6 +29,7 @@ namespace ViveSR.anipal.Eye
             }
             _currentObject = "None";
             _lookedInSec = 0f;
+            _prevFrame = 0;
             _dataFileName = "EyeTrackingData" + DateTime.Now.Day.ToString() + "-" + DateTime.Now.Hour.ToString() + "-" + DateTime.Now.Minute.ToString() + ".txt";
             _focusFileName = "FocusData" + DateTime.Now.Day.ToString() + "-" + DateTime.Now.Hour.ToString() + "-" + DateTime.Now.Minute.ToString() + ".txt";
             PcCreateFile(_dataFileName);
@@ -66,18 +69,25 @@ namespace ViveSR.anipal.Eye
                 {
                     if (FocusInfo.transform.name != _currentObject)
                     {
-                        WriteToPC(DateTime.Now + "," + _currentObject + "," + _lookedInSec, _focusFileName);
-                        _currentObject = FocusInfo.transform.name;
-                        _lookedInSec = 0f;
+                        if (_lookedInSec >= FocusNumberOfSeconds)
+                        {
+                            WriteToPC(DateTime.Now + "," + _currentObject + "," + _lookedInSec, _focusFileName);
+                            _currentObject = FocusInfo.transform.name;
+                            _lookedInSec = 0f;
+                        }
                     }
                     else
                     {
                         _lookedInSec += Time.deltaTime;
                     }
-                    ////writes data to file
-                    WriteToPC(DateTime.Now +","+ FocusInfo.point.ToString()+ ","+ FocusInfo.normal.ToString()+","+ FocusInfo.distance.ToString()+","+
-                        FocusInfo.transform.name.ToString()+","+ eyeData.verbose_data.combined.eye_data.gaze_direction_normalized.ToString()+","+
-                        eyeData.verbose_data.combined.eye_data.gaze_origin_mm.ToString()+","+eyeData.verbose_data.left.pupil_diameter_mm.ToString()+","+eyeData.verbose_data.right.pupil_diameter_mm.ToString(),_dataFileName);
+                    if (_prevFrame != eyeData.frame_sequence)
+                    {
+                        ////writes data to file
+                        WriteToPC(DateTime.Now + "," + FocusInfo.point.ToString() + "," + FocusInfo.normal.ToString() + "," + FocusInfo.distance.ToString() + "," +
+                            FocusInfo.transform.name.ToString() + "," + eyeData.verbose_data.combined.eye_data.gaze_direction_normalized.ToString() + "," +
+                            eyeData.verbose_data.combined.eye_data.gaze_origin_mm.ToString() + "," + eyeData.verbose_data.left.pupil_diameter_mm.ToString() + "," + eyeData.verbose_data.right.pupil_diameter_mm.ToString(), _dataFileName);
+                        _prevFrame = eyeData.frame_sequence;
+                    }
                 }
             }
         }
