@@ -8,13 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PW_Tree_Spruce_05 Hero_Billboard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _PW_COVER_OFF _PW_SF_COVER_ON _PW_SF_GLOBAL_CONTROL_ON _PW_SF_WORLDMAP_ON
-    _PW_SSS_OFF
+  m_Shader: {fileID: 4800000, guid: b59fbf1ddafb64aac89ae315fbb65877, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _PW_COVER_OFF _PW_SF_COVER_ON _PW_SF_GLOBAL_CONTROL_ON
+    _PW_SF_WORLDMAP_ON _PW_SSS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2460
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -24,31 +24,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: cf273bda904bb424fbeabbe746fdcf87, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -72,16 +52,11 @@ Material:
         m_Texture: {fileID: 2800000, guid: ac3b2ed1a99d17745854441701a7c5d2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ALPHATEST: 0
     - _AOPower: 0.991
     - _AOPowerExp: 0.685
     - _AOScale: 0.8
@@ -91,18 +66,12 @@ Material:
     - _AlphaTest: 1
     - _Brightness: 2
     - _BumpMapScale: 0
-    - _BumpScale: 1
     - _CullMode: 0
     - _Cutoff: 0.25
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _Mode: 0
     - _NormalStrength: 1
-    - _OcclusionStrength: 1
     - _PW_Cover: 1
     - _PW_CoverEdge: 0.1
     - _PW_CoverLayer0AlphaAdd: 1
@@ -131,21 +100,13 @@ Material:
     - _PW_CoverLayer1Wrap: 1
     - _PW_CoverWorldUVScale: 1
     - _PW_GlobalControl: 1
-    - _PW_Global_Metallic: 0
     - _PW_Global_SeasonalTintAmount: 0
-    - _PW_Global_Smoothness: 0
-    - _PW_SF_COVER: 0
-    - _PW_SF_SSS: 0
-    - _PW_SF_WIND: 0
-    - _PW_SF_WORLDMAP: 0
     - _PW_SSS: 0
     - _PW_SSSDistortion: 0.5
     - _PW_SSSPower: 2.67
-    - _PW_SSS_1: 0
     - _PW_SeasonalTintAmount: 1
     - _PW_ShaderMode: 1
     - _PW_TerrainSizeX: 2048
-    - _PW_TerrainSizeY: 0
     - _PW_TerrainSizeZ: 2048
     - _PW_Wind: 0
     - _PW_WindFrequency: 16
@@ -155,20 +116,14 @@ Material:
     - _PW_WindVertex: 0
     - _PW_WorldMapToggle: 1
     - _PW_WorldMapUVScale: 2048
-    - _Parallax: 0.02
     - _Smoothness: 0.01
-    - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
     - _Tiling: 1
-    - _UVSec: 0
     - _WrapLighting: 0.41
-    - _ZWrite: 1
     - __dirty: 1
     m_Colors:
     - _AlbedoTint: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1.4358392, g: 1.4358392, b: 1.4358392, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _PW_CoverLayer0Color: {r: 1, g: 1, b: 1, a: 1}
     - _PW_CoverLayer1Color: {r: 1, g: 1, b: 1, a: 1}
     - _PW_SSSTint: {r: 1, g: 1, b: 1, a: 1}

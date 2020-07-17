@@ -8,13 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PW_Tree_Spruce_05_Needles
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _PW_COVER_ON _PW_SF_COVER_ON _PW_SF_GLOBAL_CONTROL_ON _PW_SF_SSS_ON
-    _PW_SF_WIND_ON _PW_SF_WORLDMAP_ON _PW_SSS_ON
+  m_Shader: {fileID: 4800000, guid: b59fbf1ddafb64aac89ae315fbb65877, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _PW_COVER_ON _PW_SF_COVER_ON _PW_SF_GLOBAL_CONTROL_ON
+    _PW_SF_SSS_ON _PW_SF_WIND_ON _PW_SF_WORLDMAP_ON _PW_SSS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2460
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -32,22 +32,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: f42aae3eed274084eb1a10e49735831f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -58,10 +42,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: d52b7bc970bf83547ade208511b343ff, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PW_CoverLayer0:
@@ -84,16 +64,11 @@ Material:
         m_Texture: {fileID: 2800000, guid: 4f45dc43b1a459e44b46829db790eef4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ALPHATEST: 0
     - _AOPower: 0.564
     - _AOPowerExp: 0.579
     - _AOScale: 0.646
@@ -107,7 +82,6 @@ Material:
     - _AutumnShiftMode: 0
     - _Brightness: 1
     - _BumpMapScale: 1
-    - _BumpScale: 1
     - _ColorMaskFuzziness: 0.03
     - _ColorMaskRange: 0
     - _CoverBottomUpOffset: 0.0732467
@@ -127,17 +101,12 @@ Material:
     - _CullMode: 0
     - _Cutoff: 0.5
     - _DebugMode: 0
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
     - _EnableColorMode: 0
     - _EnableSSSMode: 1
-    - _GlossMapScale: 1
     - _Glossiness: 0.036
-    - _GlossyReflections: 1
     - _LODCrossfadeMode: 0
     - _Metallic: 0
     - _MetallicStrength: 0
-    - _Mode: 0
     - _NormalMode: 0
     - _NormalStrength: 1
     - _OcclusionStrength: 0.5
@@ -170,21 +139,13 @@ Material:
     - _PW_CoverLayer1Wrap: 0
     - _PW_CoverWorldUVScale: 1
     - _PW_GlobalControl: 1
-    - _PW_Global_Metallic: 0
     - _PW_Global_SeasonalTintAmount: 1
-    - _PW_Global_Smoothness: 0
-    - _PW_SF_COVER: 0
-    - _PW_SF_SSS: 0
-    - _PW_SF_WIND: 0
-    - _PW_SF_WORLDMAP: 0
     - _PW_SSS: 1
     - _PW_SSSDistortion: 0.05
     - _PW_SSSPower: 4
-    - _PW_SSS_1: 0
     - _PW_SeasonalTintAmount: 1
     - _PW_ShaderMode: 1
     - _PW_TerrainSizeX: 2048
-    - _PW_TerrainSizeY: 0
     - _PW_TerrainSizeZ: 2048
     - _PW_Wind: 1
     - _PW_WindFrequency: 16
@@ -194,20 +155,15 @@ Material:
     - _PW_WindVertex: 0
     - _PW_WorldMapToggle: 1
     - _PW_WorldMapUVScale: 256
-    - _Parallax: 0.02
     - _SSSColorContribution: 1
     - _SSSDistortion: 1
     - _SSSIntensity: 0.16
     - _SSSPower: 1
     - _Smoothness: 0
     - _SmoothnessMode: 0
-    - _SmoothnessTextureChannel: 0
     - _SmoothnessThreshold: 0
     - _SmoothnessVariance: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
     - _Tiling: 1
-    - _UVSec: 0
     - _WindMode: 1
     - _WindPWDirection: 0.042
     - _WindPWDistanceIntensity: 0.1
@@ -223,14 +179,12 @@ Material:
     - _WindPWMaskVerticalIntensity: 0.097
     - _WindPWMaskVerticalOffset: -0.682
     - _WrapLighting: 0.7
-    - _ZWrite: 1
     - __dirty: 1
     m_Colors:
     - _AlbedoTint: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
     - _ColorMaskTint: {r: 0, g: 0, b: 0, a: 0}
     - _CoverTint: {r: 1, g: 1, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _PW_CoverLayer0Color: {r: 1, g: 1, b: 1, a: 1}
     - _PW_CoverLayer1Color: {r: 1, g: 1, b: 1, a: 1}
     - _PW_SSSTint: {r: 1, g: 1, b: 1, a: 1}

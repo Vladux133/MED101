@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PW_Tree_Spruce_05_Bark
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 676d51a93fad6434bb7ee1f64ad89551, type: 3}
   m_ShaderKeywords: _PW_SF_GLOBAL_CONTROL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: cec6b286758180c48a57af8f97d9a96a, type: 3}
         m_Scale: {x: 9, y: 9}
         m_Offset: {x: 0, y: 0}
     - _DetailBark:
@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7d833cdaa7e0371438f2a4ba83a0b88f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -148,7 +148,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 66ab6c65fbcceef4687c7280c1ef5feb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Pine_bark_4k_nrm:
@@ -212,7 +212,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ALPHATEST: 0
     - _AOPower: 0.748
     - _AOPowerExp: 0.646
     - _AOScale: 1
@@ -356,21 +355,13 @@ Material:
     - _PW_CoverLayer1Wrap: 0
     - _PW_CoverWorldUVScale: 1
     - _PW_GlobalControl: 1
-    - _PW_Global_Metallic: 0
     - _PW_Global_SeasonalTintAmount: 0
-    - _PW_Global_Smoothness: 0
-    - _PW_SF_COVER: 0
-    - _PW_SF_SSS: 0
-    - _PW_SF_WIND: 0
-    - _PW_SF_WORLDMAP: 0
     - _PW_SSS: 0
     - _PW_SSSDistortion: 0.5
     - _PW_SSSPower: 1
-    - _PW_SSS_1: 0
     - _PW_SeasonalTintAmount: 0
     - _PW_ShaderMode: 0
     - _PW_TerrainSizeX: 2048
-    - _PW_TerrainSizeY: 0
     - _PW_TerrainSizeZ: 2048
     - _PW_Wind: 0
     - _PW_WindFrequency: 16

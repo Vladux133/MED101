@@ -1171,6 +1171,26 @@ MonoBehaviour:
     m_isFoldedOut: 0
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/16/2020 3:35:50 PM
+    scriptableObjectAssetGUID: 8e431db39e621384a9d0bf9c6feb160b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20200707 - 131854
+    m_operationDateTime: 7/16/2020 3:36:04 PM
+    scriptableObjectAssetGUID: e042b8bccb3ab2844bd7e7fdbac8d5ca
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
   m_terrainMinMaxCache:
   - guid: 51a6b7578d125a040b31c03dc1d09730
     isWorldmap: 1
@@ -1187,5 +1207,25 @@ MonoBehaviour:
     recalculate: 0
     min: 26.001587
     max: 62.613197
+  - guid: cb0b9dbc1335099408cf31a497b1fce7
+    isWorldmap: 1
+    recalculate: 1
+    min: 0
+    max: 0
+  - guid: cc4e6fcb0704c1043b65d71856ceab00
+    isWorldmap: 0
+    recalculate: 1
+    min: 0
+    max: 0
+  - guid: c540edcf5af85e3449f47bc4253c811e
+    isWorldmap: 0
+    recalculate: 1
+    min: 0
+    max: 0
+  - guid: e25232b1ebc46ed40970eb99a84884f6
+    isWorldmap: 1
+    recalculate: 1
+    min: 0
+    max: 0
   m_bakedMaskCacheEntries: []
   m_worldBiomeMaskSettings: {fileID: 0}

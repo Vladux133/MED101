@@ -90,7 +90,7 @@ Material:
     - _WavePeakToggle: 0
     - _WaveScale: 1.1
     - _WaveShoreClamp: 0.33
-    - _WaveSpeed: 8
+    - _WaveSpeed: 10
     - _WaveSteepness: 0.1
     - _ZWrite: 1
     m_Colors:

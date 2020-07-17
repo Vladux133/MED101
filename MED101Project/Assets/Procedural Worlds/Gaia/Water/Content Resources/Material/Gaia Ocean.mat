@@ -70,7 +70,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterDepthRamp:
-        m_Texture: {fileID: 2800000, guid: 6d0e84064c9c2fd4080000020bb6f5a5, type: 3}
+        m_Texture: {fileID: 2800000, guid: a6579f1ba5aa4f7458912c2c0d40235d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -84,14 +84,14 @@ Material:
     - _FoamStrength: 4.66
     - _FoamTexTile: 256
     - _Glossiness: 0.5
-    - _Metallic: 0.35
+    - _Metallic: 0.5
     - _NormalFadeDistance: 1024
     - _NormalFadeStart: 256
     - _NormalLayer0: 2
-    - _NormalLayer0Scale: 0.35
+    - _NormalLayer0Scale: 0.5
     - _NormalLayer1: 2
-    - _NormalLayer1Scale: 0.6
-    - _NormalLayer2Scale: 1
+    - _NormalLayer1Scale: 0.7
+    - _NormalLayer2Scale: 3
     - _NormalMoveScale: 0.0003
     - _NormalMoveSpeed: 0.01
     - _NormalTile: 512
@@ -101,12 +101,12 @@ Material:
     - _PW_SSSPower: 1
     - _PW_SrcBlend: 1
     - _ReflectionDistortion: 1
-    - _ReflectionStrength: 0.3
+    - _ReflectionStrength: 0.2
     - _RefractionToggle: 0
     - _RelfectionStrength: 1
     - _Smoothness: 0.9
     - _SrcBlend: 5
-    - _TransparentDepth: 10
+    - _TransparentDepth: 9
     - _TransparentDistance: 1
     - _TransparentMin: 0
     - _WaterTexTile: 64
@@ -121,7 +121,7 @@ Material:
     - _WaveShoreClamp: 0.33
     - _WaveShoreMove: 0.1
     - _WaveSize: 0.1
-    - _WaveSpeed: 8
+    - _WaveSpeed: 10
     - _WaveSteepness: 0.1
     m_Colors:
     - _AmbientColor: {r: 0.60511786, g: 0.579826, b: 0.61922145, a: 0.7449855}
@@ -132,7 +132,7 @@ Material:
     - _MainLightDir: {r: -0, g: 0.70710677, b: 0.7071067, a: 0}
     - _MainLightFresnel: {r: 0.052643288, g: 0.0726428, b: 0.122641504, a: 1}
     - _MainLightPos: {r: 0, g: 0, b: 0, a: 0}
-    - _MainLightSpecular: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 1}
+    - _MainLightSpecular: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 1}
     - _PW_MainLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _PW_MainLightDir: {r: 0, g: -1, b: 0, a: 0}
     - _PW_MainLightSpecular: {r: 0.09999997, g: 0.09999997, b: 0.09999997, a: 1}

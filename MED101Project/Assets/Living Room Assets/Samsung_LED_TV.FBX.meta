@@ -3,7 +3,42 @@ guid: 7f21eb62c6a38a84b8751dbe53d4a553
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 43d8cfe07d40ff84d892cc9c19360968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 9b08624ab2cd09643af809acc651932b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame
+    second: {fileID: 2100000, guid: 1cfe36fd88471594ab3dc947ac52a505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glossy Dark Grey
+    second: {fileID: 2100000, guid: e0ebc685318a8984b9feb6a59900cc38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LCD
+    second: {fileID: 2100000, guid: 056365dbcd06f45458371a21aed0ac87, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frame_bump
+    second: {fileID: 2800000, guid: b178b3e14fde1024ebb107a85f7dc511, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Frame_diffuse
+    second: {fileID: 2800000, guid: 4ead2945290c4eb41a82cf54cc85e6ae, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0

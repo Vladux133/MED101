@@ -14,30 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_multiSceneLightingSupport: 1
   m_updateInRealtime: 1
-  m_selectedLightingProfileValuesIndex: 2
+  m_selectedLightingProfileValuesIndex: 1
   m_renamingProfile: 0
   m_editSettings: 0
   m_lightingBakeMode: 1
   m_lightmappingMode: 2
-  m_masterSkyboxMaterial: {fileID: 0}
+  m_masterSkyboxMaterial: {fileID: 2100000, guid: 11f9a890b6e86384aaf4d69fbe79a6c1,
+    type: 2}
   m_lightingProfiles:
   - m_typeOfLighting: Morning
     m_profileType: 1
     m_userCustomProfile: 0
     m_profileRename: 
-    m_postProcessingProfile: Ambient Sample Default Evening Post Processing
-    m_directToCamera: 1
-    m_hDPostProcessingProfile: Ambient Sample Default Evening Post Processing
-    m_ambientAudio: {fileID: 0}
+    m_postProcessingProfile: Gaia Default Morning Post Processing
+    m_directToCamera: 0
+    m_hDPostProcessingProfile: 2019_3 Default HDRP Post Processing Profile
+    m_ambientAudio: {fileID: 8300000, guid: 2c20a7793b8880a4787fd7a24036663f, type: 3}
     m_ambientVolume: 0.55
     m_sunRotation: 0
-    m_sunPitch: 65
-    m_sunColor: {r: 1, g: 1, b: 1, a: 1}
-    m_sunIntensity: 1
+    m_sunPitch: 40
+    m_sunColor: {r: 1, g: 0.7907166, b: 0.7028302, a: 0}
+    m_sunIntensity: 1.3
     m_lWSunColor: {r: 1, g: 1, b: 1, a: 1}
     m_lWSunIntensity: 1
-    m_hDSunColor: {r: 1, g: 1, b: 1, a: 1}
-    m_hDSunIntensity: 1
+    m_hDSunColor: {r: 0.7924528, g: 0.57847226, b: 0.47472408, a: 1}
+    m_hDSunIntensity: 7
     m_shadowCastingMode: 2
     m_shadowStrength: 1
     m_sunShadowResolution: -1
@@ -46,28 +47,28 @@ MonoBehaviour:
     m_hDShadowResolution: 2
     m_hDContactShadows: 1
     m_hDContactShadowQuality: 1
-    m_hDContactShadowCustomQuality: 10
+    m_hDContactShadowCustomQuality: 16
     m_hDContactShadowsDistance: 150
     m_hDContactShadowOpacity: 1
     m_hDMicroShadows: 1
     m_hDMicroShadowOpacity: 1
-    m_skyboxHDRI: {fileID: 0}
-    m_skyboxTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    m_skyboxExposure: 1.6
+    m_skyboxHDRI: {fileID: 8900000, guid: 60995c357a320a4488263256076c8893, type: 3}
+    m_skyboxTint: {r: 0.4433962, g: 0.40205544, b: 0.38274294, a: 1}
+    m_skyboxExposure: 1.15
     m_sunSize: 0.04
     m_sunConvergence: 10
     m_atmosphereThickness: 1
     m_groundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     m_hDSkyType: 1
     m_hDSkyUpdateMode: 0
-    m_hDHDRISkybox: {fileID: 0}
-    m_hDHDRIExposure: 0.75
+    m_hDHDRISkybox: {fileID: 8900000, guid: 60995c357a320a4488263256076c8893, type: 3}
+    m_hDHDRIExposure: 1
     m_hDHDRIMultiplier: 1
-    m_hDGradientTopColor: {r: 0, g: 0, b: 1, a: 1}
-    m_hDGradientMiddleColor: {r: 0, g: 1, b: 1, a: 1}
+    m_hDGradientTopColor: {r: 0.9811321, g: 0.7861398, b: 0.61552155, a: 1}
+    m_hDGradientMiddleColor: {r: 0.4716981, g: 0.4614507, b: 0.44277322, a: 1}
     m_hDGradientBottomColor: {r: 1, g: 1, b: 1, a: 1}
     m_hDGradientDiffusion: 1
-    m_hDGradientExposure: 0
+    m_hDGradientExposure: 0.8
     m_hDGradientMultiplier: 1
     m_hDProceduralEnableSunDisk: 1
     m_hDProceduralIncludeSunInBaking: 1
@@ -76,17 +77,17 @@ MonoBehaviour:
     m_hDProceduralAtmosphereThickness: 1
     m_hDProceduralSkyTint:
       serializedVersion: 2
-      rgba: 2155905152
+      rgba: 2156961216
     m_hDProceduralGroundColor:
       serializedVersion: 2
-      rgba: 4289765780
+      rgba: 4287929008
     m_hDProceduralExposure: 1
     m_hDProceduralMultiplier: 2.5
-    m_hDPBSEarthPreset: 1
-    m_hDPBSPlanetaryRadius: 6378.759
+    m_hDPBSEarthPreset: 0
+    m_hDPBSPlanetaryRadius: 6378100
     m_hDPBSSphericalMode: 1
     m_hDPBSSeaLevel: 50
-    m_hDPBSPlantetCenterPosition: {x: 0, y: -6378.759, z: 0}
+    m_hDPBSPlantetCenterPosition: {x: 0, y: -6378100, z: 0}
     m_hDPBSPlanetRotation: {x: 0, y: 0, z: 0}
     m_hDPBSGroundAlbedoTexture: {fileID: 0}
     m_hDPBSGroundTint: {r: 0.5803922, g: 0.6313726, b: 0.6901961, a: 1}
@@ -94,15 +95,15 @@ MonoBehaviour:
     m_hDPBSGroundEmissionMultiplier: 1
     m_hDPBSSpaceRotation: {x: 0, y: 0, z: 0}
     m_hDPBSSpaceEmissionTexture: {fileID: 0}
-    m_hDPBSSpaceEmissionMultiplier: 1
-    m_hDPBSAirMaximumAltitude: 70
+    m_hDPBSSpaceEmissionMultiplier: 0.5
+    m_hDPBSAirMaximumAltitude: 55261.97
     m_hDPBSAirOpacity: {r: 1, g: 1, b: 1, a: 1}
-    m_hDPBSAirAlbedo: {r: 1, g: 1, b: 1, a: 1}
+    m_hDPBSAirAlbedo: {r: 0.9019608, g: 0.9019608, b: 1, a: 1}
     m_hDPBSAirDensityBlue: 0.232
     m_hDPBSAirTint: {r: 0.172, g: 0.074, b: 0.03, a: 1}
-    m_hDPBSAerosolMaximumAltitude: 8.3
-    m_hDPBSAerosolDensity: 0.5
-    m_hDPBSAerosolAlbedo: {r: 1, g: 1, b: 1, a: 1}
+    m_hDPBSAerosolMaximumAltitude: 8289.296
+    m_hDPBSAerosolDensity: 0.1
+    m_hDPBSAerosolAlbedo: {r: 0.9811321, g: 0.9140264, b: 0.86543256, a: 1}
     m_hDPBSAerosolAnisotropy: 0
     m_hDPBSColorSaturation: 1
     m_hDPBSAlphaSaturation: 1
@@ -113,21 +114,21 @@ MonoBehaviour:
     m_hDPBSNumberOfBounces: 8
     m_hDPBSIntensityMode: 0
     m_hDPBSMultiplier: 1
-    m_hDPBSExposure: 1
+    m_hDPBSExposure: 1.8
     m_hDPBSIncludeSunInBaking: 1
     m_ambientMode: 1
     m_ambientIntensity: 1
-    m_skyAmbient: {r: 1, g: 1, b: 1, a: 1}
-    m_equatorAmbient: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    m_groundAmbient: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    m_hDAmbientMode: 0
+    m_skyAmbient: {r: 0.7924528, g: 0.64916337, b: 0.58686364, a: 1}
+    m_equatorAmbient: {r: 0.5566038, g: 0.50972, b: 0.49096656, a: 1}
+    m_groundAmbient: {r: 0.4433962, g: 0.38008106, b: 0.36601102, a: 1}
+    m_hDAmbientMode: 1
     m_hDAmbientDiffuseIntensity: 1
     m_hDAmbientSpecularIntensity: 1
-    m_fogMode: 1
-    m_fogColor: {r: 1, g: 1, b: 1, a: 1}
-    m_fogDensity: 0.01
-    m_fogStartDistance: 15
-    m_fogEndDistance: 800
+    m_fogMode: 3
+    m_fogColor: {r: 0.60784316, g: 0.4901961, b: 0.4156863, a: 1}
+    m_fogDensity: 0.0022
+    m_fogStartDistance: 5
+    m_fogEndDistance: 1100
     m_hDFogType: 3
     m_hDFogType2019_3: 1
     m_hDExponentialFogDensity: 1
@@ -144,11 +145,11 @@ MonoBehaviour:
     m_hDVolumetricFogScatterColor: {r: 1, g: 1, b: 1, a: 1}
     m_hDVolumetricFogDistance: 1000
     m_hDVolumetricFogBaseHeight: 100
-    m_hDVolumetricFogMeanHeight: 200
+    m_hDVolumetricFogMeanHeight: 400
     m_hDVolumetricFogAnisotropy: 0.75
     m_hDVolumetricFogProbeDimmer: 0.8
     m_hDVolumetricFogMaxDistance: 5000
-    m_hDVolumetricFogDepthExtent: 50
+    m_hDVolumetricFogDepthExtent: 600
     m_hDVolumetricFogSliceDistribution: 0
   - m_typeOfLighting: Day
     m_profileType: 1
@@ -801,14 +802,14 @@ MonoBehaviour:
   m_enablePostProcessing: 1
   m_enableAmbientAudio: 1
   m_enableFog: 1
-  m_antiAliasingMode: 3
-  m_antiAliasingTAAStrength: 0.7
+  m_antiAliasingMode: 4
+  m_antiAliasingTAAStrength: 0.8
   m_cameraDithering: 1
-  m_cameraAperture: 16
+  m_cameraAperture: 19
   m_usePhysicalCamera: 0
   m_cameraSensorSize: {x: 70.41, y: 52.63}
   m_cameraFocalLength: 50
-  m_globalReflectionProbe: 1
+  m_globalReflectionProbe: 0
   m_enableAutoDOF: 1
   m_dofLayerDetection:
     serializedVersion: 2

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1e25b4c6f8f7749a44f2459af0eb7e, type: 3}
+  m_Name: 20200716-151849 Smooth - No Masks
+  m_EditorClassIdentifier: 
+  m_x: 0
+  m_y: 0
+  m_z: 0
+  m_isFoldedOut: 0
+  m_width: 100
+  m_height: 5
+  m_rotation: -0
+  m_isWorldmapStamper: 0
+  m_operation: 12
+  m_baseLevel: 0
+  m_drawStampBase: 1
+  m_adaptiveBase: 0
+  m_contrastFeatureSize: 10
+  m_contrastStrength: 2
+  m_terraceCount: 100
+  m_terraceJitterCount: 0.5
+  m_terraceBevelAmountInterior: 0
+  m_sharpenRidgesMixStrength: 0.5
+  m_sharpenRidgesIterations: 16
+  m_powerOf: 0
+  m_smoothVerticality: 0
+  m_smoothBlurRadius: 10
+  m_mixHeightImage: {fileID: 0}
+  m_mixMidPoint: 0.5
+  m_mixHeightStrength: 0.5
+  m_autoSpawnerArea: 0
+  m_autoMaskExportArea: 0
+  m_heightTransformCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_erosionSimScale: 0.5
+  m_erosionHydroTimeDelta: 0.07
+  m_erosionHydroIterations: 10
+  m_erosionThermalTimeDelta: 0.01
+  m_erosionThermalIterations: 8
+  m_erosionThermalReposeAngle: 80
+  m_erosionPrecipRate: 0.5
+  m_erosionEvaporationRate: 0.5
+  m_erosionFlowRate: 0.5
+  m_erosionSedimentCapacity: 0.5
+  m_erosionSedimentDepositRate: 0.8
+  m_erosionSedimentDissolveRate: 0.5
+  m_erosionRiverBankDepositRate: 7
+  m_erosionRiverBankDissolveRate: 5
+  m_erosionRiverBedDepositRate: 5
+  m_erosionRiverBedDissolveRate: 5
+  m_imageMasks: []

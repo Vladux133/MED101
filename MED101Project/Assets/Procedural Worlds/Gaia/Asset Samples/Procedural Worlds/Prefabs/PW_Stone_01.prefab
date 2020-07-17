@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1920158762507531025}
   - component: {fileID: 1357369846267340245}
-  - component: {fileID: 4693480846296138725}
+  - component: {fileID: 1717056392763974536}
   m_Layer: 9
   m_Name: PW_Stone_01
   m_TagString: PW - Nature
@@ -146,7 +146,7 @@ LODGroup:
     renderers:
     - renderer: {fileID: 5506414560383153668}
   m_Enabled: 1
---- !u!64 &4693480846296138725
+--- !u!64 &1717056392763974536
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

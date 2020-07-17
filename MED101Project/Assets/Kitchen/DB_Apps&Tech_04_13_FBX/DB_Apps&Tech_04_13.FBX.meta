@@ -3,7 +3,57 @@ guid: 1bbcb4fbe3da0a44fbc20a4feb4e3036
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_02
+    second: {fileID: 2100000, guid: 2bb7fe5987c915f41b81ec8f9c999ca7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_03
+    second: {fileID: 2100000, guid: 08716ddc02a963341b57aba2bf5eace4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_04
+    second: {fileID: 2100000, guid: d6fc34bf79bb34047981e54c7360880c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_05
+    second: {fileID: 2100000, guid: c9a0c19dc89ddcc4993f2501f2c8ce41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_06
+    second: {fileID: 2100000, guid: f69921bb17dc4124aa0b91ff0c5bbedb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_07
+    second: {fileID: 2100000, guid: 41920959e7315f744aa7573064a85db0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_08
+    second: {fileID: 2100000, guid: c144fc38fe5cc8b438e639fc2188d680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_09
+    second: {fileID: 2100000, guid: adf04b77c29138d4c977dcaf9c1719ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_10
+    second: {fileID: 2100000, guid: a457743dd8041b74b882e0c889ef17e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_11
+    second: {fileID: 2100000, guid: 2bb3e797f1a1b0548bcafa177a0ad8f4, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

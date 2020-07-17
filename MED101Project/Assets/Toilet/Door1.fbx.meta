@@ -9,6 +9,12 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: M_door
     second: {fileID: 2100000, guid: d7a47263f15c8264fb61b1f85a80666f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_door_handle1
+    second: {fileID: 4064241688249971821, guid: 2236b74eabd06ff40a8b937b14c558ff,
+      type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
