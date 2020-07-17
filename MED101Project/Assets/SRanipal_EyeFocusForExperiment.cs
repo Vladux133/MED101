@@ -14,6 +14,9 @@ namespace ViveSR.anipal.Eye
         private static EyeData eyeData = new EyeData();
         private bool eye_callback_registered = false;
 
+        private string _currentObject;
+        private float _lookedInSec;
+        private string _focusFileName;
         private string _dataFileName;
         private void Start()
         {
@@ -22,8 +25,12 @@ namespace ViveSR.anipal.Eye
                 enabled = false;
                 return;
             }
+            _currentObject = "None";
+            _lookedInSec = 0f;
             _dataFileName = "EyeTrackingData" + DateTime.Now.Day.ToString() + "-" + DateTime.Now.Hour.ToString() + "-" + DateTime.Now.Minute.ToString() + ".txt";
-            PcCreateFile();
+            _focusFileName = "FocusData" + DateTime.Now.Day.ToString() + "-" + DateTime.Now.Hour.ToString() + "-" + DateTime.Now.Minute.ToString() + ".txt";
+            PcCreateFile(_dataFileName);
+            PcCreateFile(_focusFileName);
         }
 
         private void Update()
@@ -55,12 +62,22 @@ namespace ViveSR.anipal.Eye
                 {
                     eye_focus = SRanipal_Eye.Focus(index, out GazeRay, out FocusInfo, 0, MaxDistance, (1 << layerMask));
                 }
-                if (eye_focus && FocusInfo.point != null && FocusInfo.point.x !=0)
+                if (eye_focus)
                 {
+                    if (FocusInfo.transform.name != _currentObject)
+                    {
+                        WriteToPC(DateTime.Now + "," + _currentObject + "," + _lookedInSec, _focusFileName);
+                        _currentObject = FocusInfo.transform.name;
+                        _lookedInSec = 0f;
+                    }
+                    else
+                    {
+                        _lookedInSec += Time.deltaTime;
+                    }
                     ////writes data to file
                     WriteToPC(DateTime.Now +","+ FocusInfo.point.ToString()+ ","+ FocusInfo.normal.ToString()+","+ FocusInfo.distance.ToString()+","+
                         FocusInfo.transform.name.ToString()+","+ eyeData.verbose_data.combined.eye_data.gaze_direction_normalized.ToString()+","+
-                        eyeData.verbose_data.combined.eye_data.gaze_origin_mm.ToString()+","+eyeData.verbose_data.left.pupil_diameter_mm.ToString()+","+eyeData.verbose_data.right.pupil_diameter_mm.ToString());
+                        eyeData.verbose_data.combined.eye_data.gaze_origin_mm.ToString()+","+eyeData.verbose_data.left.pupil_diameter_mm.ToString()+","+eyeData.verbose_data.right.pupil_diameter_mm.ToString(),_dataFileName);
                 }
             }
         }
@@ -76,31 +93,44 @@ namespace ViveSR.anipal.Eye
         {
             eyeData = eye_data;
         }
-        private void PcCreateFile()
+        private void PcCreateFile(string fileName)
 
         {
 
-            if (!Directory.Exists(_dataFileName))
+            if (!Directory.Exists(fileName))
 
             {
-
-                using (StreamWriter sw = File.CreateText(_dataFileName))
-
+                if (fileName.Substring(0, 1) == "E")
                 {
 
-                    sw.WriteLine("Eye-Tracking Data:DateTime.Now, FocusInfo.point,FocusInfo.normal,FocusInfo.distance,FocusInfo.transform.name,eyeData.verbose_data.combined.eye_data.gaze_direction_normalized,eyeData.verbose_data.combined.eye_data.gaze_origin_mm," +
-                        "eyeData.verbose_data.left.pupil_diameter_mm,eyeData.verbose_data.right.pupil_diameter_mm");
+                    using (StreamWriter sw = File.CreateText(fileName))
 
+                    {
+
+                        sw.WriteLine("Eye-Tracking Data:DateTime.Now, FocusInfo.point,FocusInfo.normal,FocusInfo.distance,FocusInfo.transform.name,eyeData.verbose_data.combined.eye_data.gaze_direction_normalized,eyeData.verbose_data.combined.eye_data.gaze_origin_mm," +
+                            "eyeData.verbose_data.left.pupil_diameter_mm,eyeData.verbose_data.right.pupil_diameter_mm");
+
+                    }
+
+                }
+                else
+                {
+                    using (StreamWriter sw = File.CreateText(fileName))
+
+                    {
+
+                        sw.WriteLine("Object focus data: DateTime.Now, Object Name, Time looked at object");
+
+                    }
                 }
 
             }
-
         }
-        private void WriteToPC(string message)
+        private void WriteToPC(string message, string fileName)
 
         {
 
-            using (StreamWriter sw = File.AppendText(_dataFileName))
+            using (StreamWriter sw = File.AppendText(fileName))
 
             {
 
