@@ -884,7 +884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bfcc646afa8be4fab5cd6a3dbb3326, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LogsPerSecond: 60
+  LogsPerSecond: 30
 --- !u!4 &272365072
 Transform:
   m_ObjectHideFlags: 0
