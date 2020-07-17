@@ -28,7 +28,7 @@ public class PlayerQALogs : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         _currentCount = 0;
         _maxCount = 60 / LogsPerSecond;
-        _currentFileName = "Test.txt" ;
+        _currentFileName = "Test" + DateTime.Now.Day.ToString()+"-"+DateTime.Now.Hour.ToString()+"-"+DateTime.Now.Minute.ToString() + ".txt" ;
         PcCreateFile();
     }
 
