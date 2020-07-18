@@ -28,7 +28,7 @@ MonoBehaviour:
     linkText: 
     url: 
   - heading: How to add Linear drive interaction to an object.
-    text: For this one you need to drop "Linear drive" script on exact object and under it you need to create 2 empty object to represent how far the object can move. So call one object as "begin" and other one as "end". Place then accordingly of how far you want it to go and where it needs to return if you'll push it back. Then under "Start position" add "begin" empty object and under "End position" end one. That's it, as reference, check "Modernist-Wood-&-Lacquer-Media-Console" object's door-1 sub-object.
+    text: For this one you need to drop "Linear drive" script on exact object and under it you need to create 2 empty object to represent how far the object can move. So call one object as "begin" and other one as "end". Place then accordingly of how far you want it to go and where it needs to return if you'll push it back. Then under "Start position" add "begin" empty object and under "End position" end one. That's it, as reference, check "Modernist-Wood-&-Lacquer-Media-Console" object's door-1 sub-object. Start and End position objects SHOULDN'T be childs of main objects, they should independent ones.
     linkText: 
     url: 
   - heading: Help if there's something else you want to ask

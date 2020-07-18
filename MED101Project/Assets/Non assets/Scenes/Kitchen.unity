@@ -35826,6 +35826,7 @@ GameObject:
   - component: {fileID: 6774241918576666411}
   - component: {fileID: 6615529226789460228}
   - component: {fileID: 6615529226789460227}
+  - component: {fileID: 6615529226789460229}
   m_Layer: 0
   m_Name: door-1
   m_TagString: Untagged
@@ -35848,8 +35849,8 @@ MonoBehaviour:
   startPosition: {fileID: 926670103}
   endPosition: {fileID: 1424213784}
   linearMapping: {fileID: 0}
-  repositionGameObject: 1
-  maintainMomemntum: 1
+  repositionGameObject: 0
+  maintainMomemntum: 0
   momemtumDampenRate: 5
 --- !u!114 &6615529226789460228
 MonoBehaviour:
@@ -35903,6 +35904,19 @@ MonoBehaviour:
   highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
+--- !u!65 &6615529226789460229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6615529226789460226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5128047, y: 0.018000064, z: 0.34253898}
+  m_Center: {x: 0.0008395614, y: -0.009001912, z: -0.0016229007}
 --- !u!33 &6623866990260619595
 MeshFilter:
   m_ObjectHideFlags: 0
