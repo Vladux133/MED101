@@ -6,7 +6,77 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 5d425abc61609ba419c5e0afd59c8b72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 6eca174ec6679f74a9180f17fdae45c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: fb974365e9ed5414fb34ed7378cfa702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: c76f58227ccd79d4ba9a1fae43dd828c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 - Default
+    second: {fileID: 2100000, guid: 06dff72f29ac70d4494a5e9cdd7a6005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 81fe4cd0cffcf224391fd22b02f3fd1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: 1da665520a09db74eb59cfc3fcd083ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL__Smooth__Chrome Satin
+    second: {fileID: 2100000, guid: bfad828d77e369a4bb2c2231480c6c76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METAL__Smooth__Tin Polished
+    second: {fileID: 2100000, guid: 84085d55b6ce77948b41c9b06ac2ea3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PLASTIC__PVC__Opaque Grey
+    second: {fileID: 2100000, guid: 7968d006e7f661b4aa04d70f2faaec39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PLASTIC__PVC__Opaque White
+    second: {fileID: 2100000, guid: fad427fc84234674e861cf4768d872ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STONE__Travertine__Silver
+    second: {fileID: 2100000, guid: b2c9d81e4bba530448756a7937a3cfd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pm_ceramic_bath_hot-cold
+    second: {fileID: 2100000, guid: f4e97d7e41aa9964b81014de2a783ef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sdfsdf
+    second: {fileID: 2100000, guid: 5bc8aa173d7afbd449ed85f06f160f4a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

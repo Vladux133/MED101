@@ -6,7 +6,32 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black metal
+    second: {fileID: 2100000, guid: fc66a5c687223a44497bc401ba81b447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clean Aluminium Polished
+    second: {fileID: 2100000, guid: 4e2fc437022e03148a75811e7758f331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clean Aluminium g
+    second: {fileID: 2100000, guid: 9821ac3b68b23b54bb439356510a45c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather Uph1 Black
+    second: {fileID: 2100000, guid: ca55bea7f992476469567c487eb09047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PVC FoamBoard Black
+    second: {fileID: 2100000, guid: 23d6ba1dc2c4a9a499455678bb783d69, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

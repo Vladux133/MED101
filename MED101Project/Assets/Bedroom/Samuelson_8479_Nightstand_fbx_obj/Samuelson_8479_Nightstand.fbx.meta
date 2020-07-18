@@ -3,7 +3,27 @@ guid: 6876d6d8195c14449827ac4e010cd417
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Samuelson_8479_Nightstand_mtl_1
+    second: {fileID: 2100000, guid: a40507159a1e65c48b81deaa046d8243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Samuelson_8479_Nightstand_mtl_2
+    second: {fileID: 2100000, guid: 0e7442c28a38a2c4cbb1fe6ef4c1eac8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Samuelson_8479_Nightstand_mtl_3
+    second: {fileID: 2100000, guid: 71e9cc19b8d75f34f9bdcf05358935f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Samuelson_8479_Nightstand_mtl_4
+    second: {fileID: 2100000, guid: 72f042503ed4ea943be6edfaf31e3ade, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
