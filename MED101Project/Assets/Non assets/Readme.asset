@@ -13,52 +13,26 @@ MonoBehaviour:
   m_Name: Readme
   m_EditorClassIdentifier: 
   icon: {fileID: 2800000, guid: 7801804018a7dcf42abb827444e18660, type: 3}
-  title: Universal Render Pipeline Template
+  title: README for non-programmer fellows.
   sections:
-  - heading: Universal Render Pipeline
-    text: The Universal Project Template configures Project settings for Projects
-      where performance, wide platform support, and ease of customizing graphics
-      are the primary considerations.
+  - heading: Small turorials or explanations how to add interations to the objects.
+    text: In short manner I'll describe how to add interaction with the objects such as pick and throw, circular drive or in other words how create a door, or how to create a shelf(???)
     linkText: 
     url: 
-  - heading: 
-    text: This Template uses the Universal Render Pipeline (URP) and Shader Graph.
+  - heading: How to add "Pick and throw" interaction to an object.
+    text: To add this type of interaction to the object the "Throwable" script needs to be added. With itself it will add Rigidbody + "Interactibe" script components. In addition to that, you need to add an box/sphere/whatever collider to enable collisions. As reference, check "White-Ball-Vase" object under Kitchen scene.
+    linkText: 
+     url: 
+  - heading: How to add Circular drive interaction to an object.
+    text: This interaction is a little bit more tricky, althought as for now all doors, except main entraince one has this functionality, you might want to add some more doors before testing. So, for this you need to check how many components door has - one or many. If one, I creating a empty parent object to door an mowing it to left side of the door so it would rotate correcly. Put door object under empty object and add collider to it(box one). The on empty object drop Circular drive script and change "Axis of Rotation" vaule to "Y axis" and in Child collider add collider you add to original door object. Volia, it should work after it.If door has many object under it (as "01_D01_DoorLivingRoom" one), just select the door itself and the handles and move them under empty object, you'll create. Then on door object the non-trigger collider needs  to be placed and on the one of handles the trigger box collider needs to be place so it would cover both handles. Then drop "Circular drive" script on empty object, change rotation axis to Y and under "Child collider" add the handle collider. Check mentioned door object as reference.
     linkText: 
     url: 
-  - heading: 
-    text: URP is prebuilt Scriptable Render Pipeline that is quick and easy to customize,
-      and lets you create optimized graphics across a wide range of platforms. URP
-      also includes an optimized 2D renderer complete with 2D lights and pixel perfect
-      rendering, and an integrated post-processing solution.
+  - heading: How to add Linear drive interaction to an object.
+    text: For this one you need to drop "Linear drive" script on exact object and under it you need to create 2 empty object to represent how far the object can move. So call one object as "begin" and other one as "end". Place then accordingly of how far you want it to go and where it needs to return if you'll push it back. Then under "Start position" add "begin" empty object and under "End position" end one. That's it, as reference, check "Modernist-Wood-&-Lacquer-Media-Console" object's door-1 sub-object.
     linkText: 
     url: 
-  - heading: 
-    text: Shader Graph is a tool that allows you to create shaders using a visual
-      node editor instead of writing code.
+  - heading: Help if there's something else you want to ask
+    text: Just write me on FB, ffs!
     linkText: 
     url: 
-  - heading: 
-    text: This template contains a sample Scene that contains examples of how to
-      configure lighting settings, Materials, Shaders, and post-processing effects
-      in URP, several preconfigured Universal Render Pipeline Assets that let you
-      quickly swap between graphics quality levels, and Presets that have been optimized
-      for use with URP.
-    linkText: 
-    url: 
-  - heading: 
-    text: This template contains a sample Scene that contains examples of how to
-      configure lighting settings, Materials, Shaders, and post-processing effects
-      in URP, several preconfigured Universal Render Pipeline Assets that let you
-      quickly swap between graphics quality levels, and Presets that have been optimized
-      for use with URP.
-    linkText: 
-    url: 
-  - heading: 
-    text: 'To read more about URP and its built-in features, see the '
-    linkText: URP documentation.
-    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/index.html
-  - heading: 
-    text: 'For more information about Shader Graph, see the '
-    linkText: Shader Graph documentation
-    url: https://docs.unity3d.com/Packages/com.unity.shadergraph@latest
   loadedLayout: 1
