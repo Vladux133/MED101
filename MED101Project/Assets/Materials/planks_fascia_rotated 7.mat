@@ -20,10 +20,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: planks_fascia
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: planks_fascia_rotated 7
+  m_Shader: {fileID: 4800000, guid: b6a2b188f187e2f42a24cac3199d1845, type: 3}
   m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
-    _SPECULAR_SETUP
+    _PARALLAXMAP _SPECGLOSSMAP _SPECULAR_SETUP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -33,6 +33,22 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_16400DF4:
+        m_Texture: {fileID: 2800000, guid: 515cb97de2fb5be4e863551e2fa2805c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_31808344:
+        m_Texture: {fileID: 2800000, guid: 77e9ecc1ee16b8d41a594614ecfb1ba9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A8BE244C:
+        m_Texture: {fileID: 2800000, guid: 5974f38ba077940439af8d20f7357e27, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B997153E:
+        m_Texture: {fileID: 2800000, guid: 66c1855366b7a5a42b954945d796fa9d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 77e9ecc1ee16b8d41a594614ecfb1ba9, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -55,14 +71,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 0.2, y: 0.2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: 5974f38ba077940439af8d20f7357e27, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 77e9ecc1ee16b8d41a594614ecfb1ba9, type: 3}
         m_Scale: {x: 0.2, y: 0.2}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: -0.12, y: 0.23}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 515cb97de2fb5be4e863551e2fa2805c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -78,6 +102,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_23F71C3B: 0
+    - Vector1_A740BE75: -1.4
+    - Vector1_B8A819FE: -5
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: -1.04
@@ -87,14 +114,16 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0
+    - _Glossiness: 0.378
     - _GlossyReflections: 0
-    - _Metallic: 0
+    - _Metallic: 0.134
     - _Mode: 0
+    - _NormalScale: -0.98
     - _OcclusionStrength: 1
-    - _Parallax: 0.02
+    - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Rotation: 5
     - _Smoothness: 0.386
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -104,6 +133,8 @@ Material:
     - _WorkflowMode: 0
     - _ZWrite: 1
     m_Colors:
+    - Vector2_352823A1: {r: 0.25, g: 0.25, b: 0, a: 0}
+    - Vector2_C81CAF4E: {r: -4.08, g: 0.813, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
