@@ -21,9 +21,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: planks_fascia_rotated 2
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: b6a2b188f187e2f42a24cac3199d1845, type: 3}
   m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _METALLICSPECGLOSSMAP _NORMALMAP _OCCLUSIONMAP
-    _SPECULAR_SETUP
+    _PARALLAXMAP _SPECGLOSSMAP _SPECULAR_SETUP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -73,12 +73,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 0.2, y: 0.2}
         m_Offset: {x: 0.6, y: -0.005}
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: 5974f38ba077940439af8d20f7357e27, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 77e9ecc1ee16b8d41a594614ecfb1ba9, type: 3}
-        m_Scale: {x: 0.2, y: 0.2}
-        m_Offset: {x: 0.6, y: -0.005}
+        m_Scale: {x: 0.25, y: 0.25}
+        m_Offset: {x: 0.11, y: 0.41}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 515cb97de2fb5be4e863551e2fa2805c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -106,14 +114,16 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0
+    - _Glossiness: 0.378
     - _GlossyReflections: 0
-    - _Metallic: 0
+    - _Metallic: 0.134
     - _Mode: 0
+    - _NormalScale: 1.38
     - _OcclusionStrength: 1
-    - _Parallax: 0.02
+    - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Rotation: 40
     - _Smoothness: 0.386
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
