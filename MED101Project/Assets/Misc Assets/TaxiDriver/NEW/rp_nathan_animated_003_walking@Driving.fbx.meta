@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: 62681e1cc8cf3de44b521ada2fef971a
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rp_nathan_animated_003_mat
+    second: {fileID: 2100000, guid: df03567bf898d2d4fb123370a6521a1a, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.95
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: rp_nathan_animated_003_walking_hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_upperleg_l
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_upperleg_r
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_lowerleg_l
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_lowerleg_r
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_foot_l
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_foot_r
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_shoulder_l
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_shoulder_r
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_upperarm_l
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_upperarm_r
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_lowerarm_l
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_lowerarm_r
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_hand_l
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_hand_r
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_ball_l
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_ball_r
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_eye_l
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_eye_r
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_thumb_01_l
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_thumb_02_l
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_thumb_03_l
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_index_01_l
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_index_02_l
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_index_03_l
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_middle_01_l
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_middle_02_l
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_middle_03_l
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_ring_01_l
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_ring_02_l
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_ring_03_l
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_pinky_01_l
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_pinky_02_l
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_pinky_03_l
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_thumb_01_r
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_thumb_02_r
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_thumb_03_r
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_index_01_r
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_index_02_r
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_index_03_r
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_middle_01_r
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_middle_02_r
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_middle_03_r
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_ring_01_r
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_ring_02_r
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_ring_03_r
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_pinky_01_r
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_pinky_02_r
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_pinky_03_r
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: rp_nathan_animated_003_walking_spine_03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: rp_nathan_animated_003_walking@Driving(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_CTRL
+      parentName: rp_nathan_animated_003_walking@Driving(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_root
+      parentName: rp_nathan_animated_003_walking_CTRL
+      position: {x: 0.11323608, y: -0.31909564, z: 0.33045858}
+      rotation: {x: 1.8770814e-17, y: 0.000000012254245, z: -0.0000000015317806, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_hip
+      parentName: rp_nathan_animated_003_walking_root
+      position: {x: -0.11323611, y: 1.2338727, z: -0.33045858}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: rp_nathan_animated_003_walking_spine_01
+      parentName: rp_nathan_animated_003_walking_hip
+      position: {x: -0.1418874, y: -0.00000007738479, z: 0.000000018665952}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_spine_02
+      parentName: rp_nathan_animated_003_walking_spine_01
+      position: {x: -0.14188738, y: 0.0000000018887416, z: -0.0000000025564737}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: rp_nathan_animated_003_walking_spine_03
+      parentName: rp_nathan_animated_003_walking_spine_02
+      position: {x: -0.14188722, y: -0.0000000072037256, z: 0.000000004398849}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_neck
+      parentName: rp_nathan_animated_003_walking_spine_03
+      position: {x: -0.14188904, y: -0.00000001484623, z: -0.000000013358289}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: 0.06380361, w: 0.9979625}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_head
+      parentName: rp_nathan_animated_003_walking_neck
+      position: {x: -0.10943648, y: -0.00000025919152, z: 0.000000011977715}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: 0.06380361, w: -0.9979625}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_head_end
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: -0.18411069, y: 1.3942824e-16, z: -1.3571065e-17}
+      rotation: {x: -0, y: -0, z: 8.881784e-16, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_jaw
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: -0.0075222813, y: -0.01515055, z: 0.00005484105}
+      rotation: {x: -0.00034329295, y: 0.00062790513, z: -0.87743646, w: -0.47969246}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_jaw_end
+      parentName: rp_nathan_animated_003_walking_jaw
+      position: {x: -0.084576234, y: -6.994283e-18, z: -2.7380722e-20}
+      rotation: {x: -0, y: -0, z: 0.0000000069391453, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_eye_l
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: -0.059956312, y: -0.06964904, z: -0.029318761}
+      rotation: {x: -0.000000029802322, y: 0.00000008940697, z: -0.70710856, w: -0.707105}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_eye_end_l
+      parentName: rp_nathan_animated_003_walking_eye_l
+      position: {x: -0.011612304, y: -1.3272738e-13, z: -4.2189177e-18}
+      rotation: {x: -0, y: -0, z: 2.6645353e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_eye_r
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: -0.060340423, y: -0.06872161, z: 0.026448052}
+      rotation: {x: -0.00000065565104, y: 0.0000006854534, z: -0.7071068, w: -0.70710677}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_eye_end_r
+      parentName: rp_nathan_animated_003_walking_eye_r
+      position: {x: -0.013206734, y: -2.0939383e-14, z: -4.218888e-18}
+      rotation: {x: -0, y: -0, z: 4.4941825e-13, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_mouth_l
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: 0.0055435775, y: -0.081387654, z: -0.025960956}
+      rotation: {x: 0.27059814, y: -0.27059808, z: -0.6532815, w: -0.65328145}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000006}
+    - name: rp_nathan_animated_003_walking_mouth_r
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: 0.005893362, y: -0.08362321, z: 0.023150781}
+      rotation: {x: -0.27059805, y: 0.27059805, z: -0.6532815, w: -0.6532815}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: rp_nathan_animated_003_walking_eyelid_r
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: -0.060340423, y: -0.06872161, z: 0.026448052}
+      rotation: {x: -3.5527137e-15, y: 0.000000029802322, z: -0.62407905, w: -0.7813612}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_eyelid_end_r
+      parentName: rp_nathan_animated_003_walking_eyelid_r
+      position: {x: -0.017510675, y: 1.2960299e-14, z: -6.328271e-17}
+      rotation: {x: -3.5527137e-15, y: 0.000000029802322, z: -0.62407905, w: 0.7813612}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: rp_nathan_animated_003_walking_eyelid_l
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: -0.059956312, y: -0.06964904, z: -0.029318761}
+      rotation: {x: -0.000000029802319, y: 0.000000029802319, z: -0.61541355, w: -0.7882044}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_eyelid_end_l
+      parentName: rp_nathan_animated_003_walking_eyelid_l
+      position: {x: -0.01595957, y: 2.3220536e-14, z: -7.1720404e-17}
+      rotation: {x: -0, y: -0, z: -0.000000029802319, w: 1}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_eyebrow_l
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: -0.069829315, y: -0.09747615, z: -0.017764453}
+      rotation: {x: 0.27059808, y: -0.6532815, z: -0.6532815, w: -0.27059805}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000007}
+    - name: rp_nathan_animated_003_walking_eyebrow_r
+      parentName: rp_nathan_animated_003_walking_head
+      position: {x: -0.07025506, y: -0.09609447, z: 0.01859359}
+      rotation: {x: -0.2705981, y: 0.65328157, z: -0.65328145, w: -0.27059808}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_shoulder_l
+      parentName: rp_nathan_animated_003_walking_spine_03
+      position: {x: -0.12555817, y: 0.016986448, z: -0.055174943}
+      rotation: {x: -0, y: -0.7071068, z: -0.00000000433253, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000005}
+    - name: rp_nathan_animated_003_walking_upperarm_l
+      parentName: rp_nathan_animated_003_walking_shoulder_l
+      position: {x: -0.12961876, y: 0.000000007144326, z: 0.00000007176443}
+      rotation: {x: 0.0000000011488349, y: -0, z: 0.0000000011488349, w: 1}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_lowerarm_l
+      parentName: rp_nathan_animated_003_walking_upperarm_l
+      position: {x: -0.25346196, y: 0.000000020051782, z: -6.641277e-10}
+      rotation: {x: -0.0000000030635607, y: -0, z: -0.0000000030635607, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_hand_l
+      parentName: rp_nathan_animated_003_walking_lowerarm_l
+      position: {x: -0.2454546, y: -0.0000000353077, z: -0.000000063346555}
+      rotation: {x: 0.7071068, y: 0.0000000013539156, z: -0.0000000035201806, w: -0.7071068}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_thumb_01_l
+      parentName: rp_nathan_animated_003_walking_hand_l
+      position: {x: -0.05210051, y: 0.012830836, z: -0.031306088}
+      rotation: {x: -0.63452524, y: 0.27887833, z: -0.20775662, w: -0.6902476}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: rp_nathan_animated_003_walking_thumb_02_l
+      parentName: rp_nathan_animated_003_walking_thumb_01_l
+      position: {x: -0.03558959, y: 0.000000021798636, z: 0.000000003945386}
+      rotation: {x: 0.012414843, y: 0.022078186, z: -0.027976826, w: 0.99928766}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_thumb_03_l
+      parentName: rp_nathan_animated_003_walking_thumb_02_l
+      position: {x: -0.03071663, y: 0.000000010235575, z: 0.000000007605239}
+      rotation: {x: 9.3132246e-10, y: -0, z: -0.000000011059455, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_thumb_end_l
+      parentName: rp_nathan_animated_003_walking_thumb_03_l
+      position: {x: -0.02339895, y: -0.000000005381076, z: 0.0000000087247995}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_index_01_l
+      parentName: rp_nathan_animated_003_walking_hand_l
+      position: {x: -0.10085304, y: 0.0051866793, z: -0.025061987}
+      rotation: {x: -0, y: -0, z: -1.1102229e-16, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_index_02_l
+      parentName: rp_nathan_animated_003_walking_index_01_l
+      position: {x: -0.03990084, y: -0.00000000807938, z: 2.9702943e-10}
+      rotation: {x: 0.000000119209275, y: -3.3306688e-16, z: 2.2204458e-16, w: 1}
+      scale: {x: 1.0000006, y: 0.9999998, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_index_03_l
+      parentName: rp_nathan_animated_003_walking_index_02_l
+      position: {x: -0.023003815, y: 0.000000011754367, z: -0.000000008164212}
+      rotation: {x: -0.000000119209275, y: 0.000000042146848, z: -5.1353177e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: rp_nathan_animated_003_walking_index_end_l
+      parentName: rp_nathan_animated_003_walking_index_03_l
+      position: {x: -0.022295533, y: -0.000000004819506, z: -0.0000000023793703}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_middle_01_l
+      parentName: rp_nathan_animated_003_walking_hand_l
+      position: {x: -0.102471106, y: 0.0037642033, z: -0.0060558845}
+      rotation: {x: -0, y: -0, z: -1.1102229e-16, w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_middle_02_l
+      parentName: rp_nathan_animated_003_walking_middle_01_l
+      position: {x: -0.047700446, y: -0.00000002699827, z: 6.756583e-10}
+      rotation: {x: 0.000000059604645, y: -2.220446e-16, z: -1.323489e-23, w: 1}
+      scale: {x: 0.9999997, y: 0.9999998, z: 1}
+    - name: rp_nathan_animated_003_walking_middle_03_l
+      parentName: rp_nathan_animated_003_walking_middle_02_l
+      position: {x: -0.027184397, y: 0.000000004173465, z: -3.9122147e-10}
+      rotation: {x: -0.000000059604645, y: 2.220446e-16, z: 1.323489e-23, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_middle_end_l
+      parentName: rp_nathan_animated_003_walking_middle_03_l
+      position: {x: -0.026817748, y: -0.00000003263839, z: 0.0000000029182121}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_ring_01_l
+      parentName: rp_nathan_animated_003_walking_hand_l
+      position: {x: -0.10085303, y: 0.0051866984, z: 0.012405243}
+      rotation: {x: -0, y: -0, z: -1.1102229e-16, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_ring_02_l
+      parentName: rp_nathan_animated_003_walking_ring_01_l
+      position: {x: -0.044138167, y: -0.0000000010890431, z: -0.0000000104245785}
+      rotation: {x: 0.000000119209275, y: -3.3306688e-16, z: 2.2204458e-16, w: 1}
+      scale: {x: 1.0000006, y: 0.9999998, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_ring_03_l
+      parentName: rp_nathan_animated_003_walking_ring_02_l
+      position: {x: -0.024151081, y: -0.00000005530943, z: 7.8839046e-10}
+      rotation: {x: -0.000000119209275, y: 0.000000042146848, z: -5.1353177e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: rp_nathan_animated_003_walking_ring_end_l
+      parentName: rp_nathan_animated_003_walking_ring_03_l
+      position: {x: -0.02382742, y: 0.000000011178141, z: -0.0000000026963627}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_pinky_01_l
+      parentName: rp_nathan_animated_003_walking_hand_l
+      position: {x: -0.09939676, y: 0.006483968, z: 0.028643562}
+      rotation: {x: -0.000000059604645, y: 4.440892e-16, z: -3.330669e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_pinky_02_l
+      parentName: rp_nathan_animated_003_walking_pinky_01_l
+      position: {x: -0.03230188, y: -0.0000000045765414, z: -0.0000000012621479}
+      rotation: {x: 0.000000059604645, y: -4.440892e-16, z: 2.2204463e-16, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: rp_nathan_animated_003_walking_pinky_03_l
+      parentName: rp_nathan_animated_003_walking_pinky_02_l
+      position: {x: -0.014829276, y: 0.000000025010069, z: -0.0000000023555977}
+      rotation: {x: -0, y: -0, z: 3.1554432e-30, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_pinky_end_l
+      parentName: rp_nathan_animated_003_walking_pinky_03_l
+      position: {x: -0.016936388, y: 0.0000000022189954, z: -1.3720058e-10}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_lowerarm_twist_l
+      parentName: rp_nathan_animated_003_walking_lowerarm_l
+      position: {x: -0.1227273, y: -0.000000038812576, z: -0.000000061393216}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_upperarm_twist_l
+      parentName: rp_nathan_animated_003_walking_upperarm_l
+      position: {x: -0.1267309, y: 0.000000008695936, z: 0.000000017479495}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_shoulder_r
+      parentName: rp_nathan_animated_003_walking_spine_03
+      position: {x: -0.123218045, y: 0.01487092, z: 0.06166349}
+      rotation: {x: 0.7071068, y: -0, z: 0.7071068, w: -0.00000000866506}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_upperarm_r
+      parentName: rp_nathan_animated_003_walking_shoulder_r
+      position: {x: 0.130011, y: 0.000000003749053, z: 0.000000013276543}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_lowerarm_r
+      parentName: rp_nathan_animated_003_walking_upperarm_r
+      position: {x: 0.2656919, y: 0.000000018467428, z: -0.000000027794956}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 0.9999998, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_hand_r
+      parentName: rp_nathan_animated_003_walking_lowerarm_r
+      position: {x: 0.24433705, y: -0.000000009944616, z: -0.000000018743423}
+      rotation: {x: -0.7071068, y: 0.0000000043325294, z: -0.000000029802322, w: 0.7071068}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_thumb_01_r
+      parentName: rp_nathan_animated_003_walking_hand_r
+      position: {x: 0.044609133, y: -0.014157829, z: 0.030522399}
+      rotation: {x: 0.6323383, y: -0.2813178, z: 0.21399796, w: 0.6893573}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: rp_nathan_animated_003_walking_thumb_02_r
+      parentName: rp_nathan_animated_003_walking_thumb_01_r
+      position: {x: 0.03621924, y: 0.0000000027844935, z: -0.00000001796208}
+      rotation: {x: 0.01241502, y: 0.02207954, z: -0.0279742, w: 0.99928766}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1}
+    - name: rp_nathan_animated_003_walking_thumb_03_r
+      parentName: rp_nathan_animated_003_walking_thumb_02_r
+      position: {x: 0.032996014, y: -0.000000007699829, z: -6.757964e-10}
+      rotation: {x: 0.00000008847562, y: -0.000000007450579, z: 0.0000000123400214,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000007}
+    - name: rp_nathan_animated_003_walking_thumb_end_r
+      parentName: rp_nathan_animated_003_walking_thumb_03_r
+      position: {x: 0.024686668, y: 0.0000000095053325, z: 0.0000000055898797}
+      rotation: {x: -0, y: -0, z: -2.289836e-16, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: rp_nathan_animated_003_walking_index_01_r
+      parentName: rp_nathan_animated_003_walking_hand_r
+      position: {x: 0.101693444, y: -0.004897402, z: 0.025548488}
+      rotation: {x: -0, y: -0, z: -6.6613376e-16, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000006}
+    - name: rp_nathan_animated_003_walking_index_02_r
+      parentName: rp_nathan_animated_003_walking_index_01_r
+      position: {x: 0.039467514, y: 0.0000000044778132, z: -0.000000012571879}
+      rotation: {x: -4.4373417e-31, y: 6.6613376e-16, z: 0.000000042146848, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_index_03_r
+      parentName: rp_nathan_animated_003_walking_index_02_r
+      position: {x: 0.022515634, y: -0.000000031456043, z: 0.0000000011992485}
+      rotation: {x: -8.881783e-16, y: -0.000000021073424, z: -0.000000021073424, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_index_end_r
+      parentName: rp_nathan_animated_003_walking_index_03_r
+      position: {x: 0.021878997, y: 0.00000000425692, z: 0.0000000028889382}
+      rotation: {x: -0, y: -0, z: -1.8716959e-23, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: rp_nathan_animated_003_walking_middle_01_r
+      parentName: rp_nathan_animated_003_walking_hand_r
+      position: {x: 0.102793425, y: -0.0027554985, z: 0.0073045013}
+      rotation: {x: -0, y: -0, z: -6.6613376e-16, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000006}
+    - name: rp_nathan_animated_003_walking_middle_02_r
+      parentName: rp_nathan_animated_003_walking_middle_01_r
+      position: {x: 0.046989832, y: 0.000000011499398, z: -0.00000003167118}
+      rotation: {x: -4.4373417e-31, y: 6.6613376e-16, z: 0.000000042146848, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_middle_03_r
+      parentName: rp_nathan_animated_003_walking_middle_02_r
+      position: {x: 0.026384067, y: -0.0000000143957894, z: -0.000000006150315}
+      rotation: {x: -8.881783e-16, y: -0.000000021073424, z: -0.000000021073424, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_middle_end_r
+      parentName: rp_nathan_animated_003_walking_middle_03_r
+      position: {x: 0.026039772, y: -0.000000018850617, z: 0.000000012699319}
+      rotation: {x: -0, y: -0, z: -1.8716959e-23, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: rp_nathan_animated_003_walking_ring_01_r
+      parentName: rp_nathan_animated_003_walking_hand_r
+      position: {x: 0.10169346, y: -0.004897399, z: -0.011150397}
+      rotation: {x: -0, y: -0, z: -6.6613376e-16, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000006}
+    - name: rp_nathan_animated_003_walking_ring_02_r
+      parentName: rp_nathan_animated_003_walking_ring_01_r
+      position: {x: 0.043111503, y: -0.0000000047819992, z: -3.806823e-10}
+      rotation: {x: -4.4373417e-31, y: 6.6613376e-16, z: 0.000000042146848, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_ring_03_r
+      parentName: rp_nathan_animated_003_walking_ring_02_r
+      position: {x: 0.023609959, y: -0.000000022567699, z: -0.00000001174522}
+      rotation: {x: -8.881783e-16, y: -0.000000021073424, z: -0.000000021073424, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_ring_end_r
+      parentName: rp_nathan_animated_003_walking_ring_03_r
+      position: {x: 0.02331733, y: 0.000000008115303, z: -0.00000000229936}
+      rotation: {x: -0, y: -0, z: -1.8716959e-23, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: rp_nathan_animated_003_walking_pinky_01_r
+      parentName: rp_nathan_animated_003_walking_hand_r
+      position: {x: 0.100410044, y: -0.0057262485, z: -0.028441569}
+      rotation: {x: -0, y: -0, z: -6.6613376e-16, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000006}
+    - name: rp_nathan_animated_003_walking_pinky_02_r
+      parentName: rp_nathan_animated_003_walking_pinky_01_r
+      position: {x: 0.033644978, y: -0.000000018215445, z: -0.000000008739559}
+      rotation: {x: -4.4373417e-31, y: 6.6613376e-16, z: 0.000000042146848, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_pinky_03_r
+      parentName: rp_nathan_animated_003_walking_pinky_02_r
+      position: {x: 0.015245389, y: 0.00000000598443, z: -0.000000007125559}
+      rotation: {x: -8.881783e-16, y: -0.000000021073424, z: -0.000000021073424, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_pinky_end_r
+      parentName: rp_nathan_animated_003_walking_pinky_03_r
+      position: {x: 0.017384395, y: -0.000000008620144, z: -0.0000000026926086}
+      rotation: {x: -0, y: -0, z: -1.8716959e-23, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: rp_nathan_animated_003_walking_lowerarm_twist_r
+      parentName: rp_nathan_animated_003_walking_lowerarm_r
+      position: {x: 0.122168526, y: -0.000000027175991, z: -0.000000007470302}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_upperarm_twist_r
+      parentName: rp_nathan_animated_003_walking_upperarm_r
+      position: {x: 0.13284603, y: 0.000000008822537, z: -0.000000009361428}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_upperleg_l
+      parentName: rp_nathan_animated_003_walking_hip
+      position: {x: 0.00009265062, y: -0.000000011523746, z: -0.100869246}
+      rotation: {x: -0.00000008940697, y: -0.0004592538, z: -0.00021497905, w: 0.99999994}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_lowerleg_l
+      parentName: rp_nathan_animated_003_walking_upperleg_l
+      position: {x: 0.42201707, y: 0.000000048289625, z: 0.000000022035689}
+      rotation: {x: -0.000013560267, y: -0.0006431882, z: 0.021762105, w: 0.99976295}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_foot_l
+      parentName: rp_nathan_animated_003_walking_lowerleg_l
+      position: {x: 0.39888003, y: -0.00000016572052, z: -0.000000005612578}
+      rotation: {x: 0.000023782253, y: 0.0011023282, z: -0.021547168, w: 0.99976724}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999998}
+    - name: rp_nathan_animated_003_walking_ball_l
+      parentName: rp_nathan_animated_003_walking_foot_l
+      position: {x: 0.06630875, y: -0.13550176, z: -0.0021021606}
+      rotation: {x: -0.000935793, y: 0.0009424688, z: 0.70961475, w: 0.7045887}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: rp_nathan_animated_003_walking_foot_end_l
+      parentName: rp_nathan_animated_003_walking_ball_l
+      position: {x: -0.0592135, y: -2.5313083e-17, z: -3.0188863e-17}
+      rotation: {x: -0, y: -0, z: -0.000000012113958, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_lowerleg_twist_l
+      parentName: rp_nathan_animated_003_walking_lowerleg_l
+      position: {x: 0.19943991, y: -0.00000003934395, z: -0.000000005464991}
+      rotation: {x: -9.094946e-13, y: -0, z: -0.0000000012712239, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: rp_nathan_animated_003_walking_upperleg_twist_l
+      parentName: rp_nathan_animated_003_walking_upperleg_l
+      position: {x: 0.21100843, y: -0.00000003369319, z: 0.000000011555782}
+      rotation: {x: -0, y: -0, z: 2.5952571e-12, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: rp_nathan_animated_003_walking_upperleg_r
+      parentName: rp_nathan_animated_003_walking_hip
+      position: {x: -0.00009264737, y: -0.000000009784674, z: 0.10086931}
+      rotation: {x: -0.0004592836, y: -0.00000016391277, z: 0.9999999, w: 0.00021491945}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000005}
+    - name: rp_nathan_animated_003_walking_lowerleg_r
+      parentName: rp_nathan_animated_003_walking_upperleg_r
+      position: {x: -0.41986266, y: -0.0000000012825655, z: -0.000000034836035}
+      rotation: {x: -0.000005930592, y: -0.00028105144, z: 0.021739222, w: 0.9997636}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_foot_r
+      parentName: rp_nathan_animated_003_walking_lowerleg_r
+      position: {x: -0.39209086, y: -0.000000034623483, z: -0.00000002240848}
+      rotation: {x: 0.000000013361842, y: -0.00017824101, z: -0.021524325, w: 0.9997683}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_ball_r
+      parentName: rp_nathan_animated_003_walking_foot_r
+      position: {x: -0.07784088, y: 0.1493804, z: -0.0012398098}
+      rotation: {x: -0.00041715367, y: 0.0004271539, z: 0.7153926, w: 0.69872254}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000004}
+    - name: rp_nathan_animated_003_walking_foot_end_r
+      parentName: rp_nathan_animated_003_walking_ball_r
+      position: {x: 0.04849472, y: -2.5754828e-17, z: -2.2913527e-17}
+      rotation: {x: -0, y: -0, z: -6.2512123e-10, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: rp_nathan_animated_003_walking_lowerleg_twist_r
+      parentName: rp_nathan_animated_003_walking_lowerleg_r
+      position: {x: -0.19604547, y: -0.000000027349666, z: -0.000000010653197}
+      rotation: {x: -0, y: -0, z: 1.9584354e-10, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: rp_nathan_animated_003_walking_upperleg_twist_r
+      parentName: rp_nathan_animated_003_walking_upperleg_r
+      position: {x: -0.2099313, y: -0.0000000016678182, z: -0.00000001992566}
+      rotation: {x: -0, y: -0, z: -2.5228708e-12, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: rp_nathan_animated_003_walking_geoGRP
+      parentName: rp_nathan_animated_003_walking@Driving(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rp_nathan_animated_003_walking_geo
+      parentName: rp_nathan_animated_003_walking_geoGRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.95
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
