@@ -28,26 +28,26 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.8333333
-        value: {x: -0.1337277, y: 0, z: -0.018672839}
-        inSlope: {x: -0.2844753, y: 0, z: -0.03972222}
-        outSlope: {x: -0.2844753, y: 0, z: -0.03972222}
+        time: 1
+        value: {x: -0.451, y: -0.164, z: -0.09}
+        inSlope: {x: -0.58100003, y: 0, z: 0}
+        outSlope: {x: -0.58100003, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 1.8333334
-        value: {x: -0.47072154, y: 0.14, z: -0.065728396}
-        inSlope: {x: -0.3369938, y: 0.045497686, z: -0.047055554}
-        outSlope: {x: -0.3369938, y: 0, z: -0.047055554}
+        time: 2
+        value: {x: -1.24225, y: -0.103, z: 0.317}
+        inSlope: {x: -0.82375, y: 0.0915, z: 0}
+        outSlope: {x: -0.82375, y: 0.0915, z: 0}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.08457303, z: 0.33333334}
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 3
-        value: {x: -0.709, y: 0.14, z: -0.099}
+        value: {x: -1.743, y: -0.042, z: 0.317}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -58,6 +58,22 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Car Rig.001/DEF-Body/Placeholder/Player
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00282, y: 0.00673, z: 0.00714}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Car Rig.001/DEF-Body/Placeholder
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -70,6 +86,13 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 1332441241
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2902896521
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -110,8 +133,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 1
+        value: -0.451
+        inSlope: -0.58100003
+        outSlope: -0.58100003
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 3
-        value: -0.709
+        value: -1.743
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -138,26 +170,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.8333333
-        value: 0
+        time: 1
+        value: -0.164
         inSlope: 0
         outSlope: 0
-        tangentMode: 1
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.8333334
-        value: 0.14
-        inSlope: 0.045497686
-        outSlope: 0
-        tangentMode: 65
-        weightedMode: 0
-        inWeight: 0.08457303
-        outWeight: 0.33333334
-      - serializedVersion: 3
         time: 3
-        value: 0.14
+        value: -0.042
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -184,8 +207,26 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 1
+        value: -0.09
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
+        value: 0.317
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 3
-        value: -0.099
+        value: 0.317
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -199,11 +240,68 @@ AnimationClip:
     path: Car Rig.001/DEF-Body/Placeholder/Player
     classID: 4
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.00282
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Car Rig.001/DEF-Body/Placeholder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.00673
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Car Rig.001/DEF-Body/Placeholder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.00714
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Car Rig.001/DEF-Body/Placeholder
+    classID: 4
+    script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 3
+  - time: 3.1666667
     functionName: DeParent
     data: 
     objectReferenceParameter: {fileID: 0}
