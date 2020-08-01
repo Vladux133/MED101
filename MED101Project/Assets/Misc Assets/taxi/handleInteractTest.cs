@@ -66,6 +66,7 @@ namespace Valve.VR.InteractionSystem.Sample
             //generalText.text = string.Format("Attached: {0}", hand.name);
             //attachTime = Time.time;
             SetBool("DoorOpen");
+            hand.DetachObject(gameObject);
         }
 
         // Start is called before the first frame update
