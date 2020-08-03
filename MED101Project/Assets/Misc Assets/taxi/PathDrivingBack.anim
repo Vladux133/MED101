@@ -1916,16 +1916,23 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 1.25
+    functionName: SetBool
+    data: WheelTurn
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 4
     functionName: SetBool
-    data: Stopped
+    data: WheelTurn
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 4.8333335
     functionName: SetBool
-    data: Stopped
+    data: WheelTurn
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

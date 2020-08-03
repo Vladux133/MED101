@@ -374,13 +374,6 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 3.1666667
-    functionName: DeParent
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 3.1666667
     functionName: SetBool
     data: DoorClose
     objectReferenceParameter: {fileID: 0}
