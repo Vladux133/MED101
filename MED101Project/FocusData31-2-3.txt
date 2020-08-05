@@ -1,1 +1,0 @@
-Object focus data: DateTime.Now, Object Name, Time looked at object
