@@ -20,6 +20,7 @@ namespace ViveSR.anipal.Eye
         private string _dataFileName;
         [Range(0f,5f),Tooltip("Number of seconds needed to indentify that player payed attention to the object")]
         public float FocusNumberOfSeconds;
+        private float _gameTime;
         private void Start()
         {
             if (!SRanipal_Eye_Framework.Instance.EnableEye)
@@ -38,6 +39,8 @@ namespace ViveSR.anipal.Eye
 
         private void Update()
         {
+            _gameTime += Time.deltaTime;
+
             if (SRanipal_Eye_Framework.Status != SRanipal_Eye_Framework.FrameworkStatus.WORKING &&
                 SRanipal_Eye_Framework.Status != SRanipal_Eye_Framework.FrameworkStatus.NOT_SUPPORT) return;
 
@@ -71,7 +74,7 @@ namespace ViveSR.anipal.Eye
                     {
                         if (_lookedInSec >= FocusNumberOfSeconds)
                         {
-                            WriteToPC(DateTime.Now + "," + _currentObject + "," + _lookedInSec, _focusFileName);
+                            WriteToPC(_gameTime + "," + _currentObject + "," + _lookedInSec, _focusFileName);
                             _currentObject = FocusInfo.transform.name;
                             _lookedInSec = 0f;
                         }
@@ -83,7 +86,7 @@ namespace ViveSR.anipal.Eye
                     if (_prevFrame != eyeData.frame_sequence)
                     {
                         ////writes data to file
-                        WriteToPC(DateTime.Now + "," + FocusInfo.point.ToString() + "," + FocusInfo.normal.ToString() + "," + FocusInfo.distance.ToString() + "," +
+                        WriteToPC(_gameTime + "," + FocusInfo.point.ToString() + "," + FocusInfo.normal.ToString() + "," +
                             FocusInfo.transform.name.ToString() + "," + eyeData.verbose_data.combined.eye_data.gaze_direction_normalized.ToString() + "," +
                             eyeData.verbose_data.combined.eye_data.gaze_origin_mm.ToString() + "," + eyeData.verbose_data.left.pupil_diameter_mm.ToString() + "," + eyeData.verbose_data.right.pupil_diameter_mm.ToString(), _dataFileName);
                         _prevFrame = eyeData.frame_sequence;
@@ -117,7 +120,7 @@ namespace ViveSR.anipal.Eye
 
                     {
 
-                        sw.WriteLine("Eye-Tracking Data:DateTime.Now, FocusInfo.point,FocusInfo.normal,FocusInfo.distance,FocusInfo.transform.name,eyeData.verbose_data.combined.eye_data.gaze_direction_normalized,eyeData.verbose_data.combined.eye_data.gaze_origin_mm," +
+                        sw.WriteLine("Eye-Tracking Data:DateTime.Now, FocusInfo.point,FocusInfo.normal,FocusInfo.transform.name,eyeData.verbose_data.combined.eye_data.gaze_direction_normalized,eyeData.verbose_data.combined.eye_data.gaze_origin_mm," +
                             "eyeData.verbose_data.left.pupil_diameter_mm,eyeData.verbose_data.right.pupil_diameter_mm");
 
                     }
