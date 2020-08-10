@@ -42,12 +42,12 @@ public class ResetNotePositionScript : MonoBehaviour
             
         if (Input.anyKeyDown) 
         {
-            Debug.Log("Key pressed!");
+           // Debug.Log("Key pressed!");
             for (int j = 0; j <= noteObjects.Length-1; j++)
             {
                 if (Input.GetKeyDown(KeycodeVal[j])) {
                     noteObjects[j].transform.SetPositionAndRotation(origNotePos[j], origNoteRot[j]);
-                    Debug.Log("Numpad" + j + " pressed!");
+                    //Debug.Log("Numpad" + j + " pressed!");
                 }
             }
 
@@ -62,7 +62,7 @@ public class ResetNotePositionScript : MonoBehaviour
                 {
                     otherObjects[n].transform.SetPositionAndRotation(origOtherPos[n], origOtherRot[n]);
                 }
-                Debug.Log("Numpad0 pressed!");
+                //Debug.Log("Numpad0 pressed!");
             }
         }
      }   
