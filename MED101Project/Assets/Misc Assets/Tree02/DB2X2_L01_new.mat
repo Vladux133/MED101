@@ -10,7 +10,7 @@ Material:
   m_Name: DB2X2_L01_new
   m_Shader: {fileID: 4800000, guid: b59fbf1ddafb64aac89ae315fbb65877, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _PW_COVER_ON _PW_SF_COVER_ON _PW_SF_GLOBAL_CONTROL_ON
-    _PW_SF_SSS_ON _PW_SF_WIND_ON _PW_SF_WORLDMAP_ON _PW_SSS_ON
+    _PW_SF_WIND_ON _PW_SF_WORLDMAP_ON _PW_SSS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -117,8 +117,8 @@ Material:
     - _PW_CoverLayer0AlphaClamp: 1
     - _PW_CoverLayer0AlphaExpand: 1
     - _PW_CoverLayer0Edge: 0.1
-    - _PW_CoverLayer0FadeDist: 0
-    - _PW_CoverLayer0FadeStart: 0
+    - _PW_CoverLayer0FadeDist: 1000
+    - _PW_CoverLayer0FadeStart: 1000
     - _PW_CoverLayer0Metallic: 0
     - _PW_CoverLayer0NormalScale: 1
     - _PW_CoverLayer0Progress: 0
@@ -129,8 +129,8 @@ Material:
     - _PW_CoverLayer1AlphaClamp: 1
     - _PW_CoverLayer1AlphaExpand: 1
     - _PW_CoverLayer1Edge: 0.1
-    - _PW_CoverLayer1FadeDist: 0
-    - _PW_CoverLayer1FadeStart: 0
+    - _PW_CoverLayer1FadeDist: 1000
+    - _PW_CoverLayer1FadeStart: 1000
     - _PW_CoverLayer1Metallic: 0
     - _PW_CoverLayer1NormalScale: 1
     - _PW_CoverLayer1Progress: 0
@@ -140,7 +140,7 @@ Material:
     - _PW_CoverWorldUVScale: 1
     - _PW_GlobalControl: 1
     - _PW_Global_SeasonalTintAmount: 1
-    - _PW_SSS: 1
+    - _PW_SSS: 0
     - _PW_SSSDistortion: 0.05
     - _PW_SSSPower: 4
     - _PW_SeasonalTintAmount: 1

@@ -16,7 +16,7 @@ MonoBehaviour:
   m_renamingProfile: 0
   m_updateInRealtime: 1
   m_allowMSAA: 0
-  m_useHDR: 1
+  m_useHDR: 0
   m_enableDisabeHeightFeature: 1
   m_disableHeight: 125
   m_selectedProfile: My Profile Pro g
@@ -24,42 +24,42 @@ MonoBehaviour:
   m_interval: 0.25
   m_useCustomRenderDistance: 1
   m_enableLayerDistances: 1
-  m_customRenderDistance: 300
+  m_customRenderDistance: 0
   m_customRenderDistances:
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
   - 0
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
-  - 300
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   m_editSettings: 0
-  m_selectedWaterProfileValuesIndex: 1
+  m_selectedWaterProfileValuesIndex: 3
   m_useCastics: 1
   m_mainCausticLight: {fileID: 0}
   m_causticFramePerSecond: 24
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_zSize: 6000
   m_xSize: 6000
   m_customMeshQuality: 1
-  m_enableReflections: 1
+  m_enableReflections: 0
   m_disablePixelLights: 0
   m_reflectionResolution: 6
   m_clipPlaneOffset: 0
