@@ -58,7 +58,7 @@ public class ResetNotePositionScript : MonoBehaviour
                     noteObjects[i].transform.SetPositionAndRotation(origNotePos[i], origNoteRot[i]);
                 }
 
-                for (int n = 0; n <= noteObjects.Length - 1; n++)
+                for (int n = 0; n <= otherObjects.Length - 1; n++)
                 {
                     otherObjects[n].transform.SetPositionAndRotation(origOtherPos[n], origOtherRot[n]);
                 }
