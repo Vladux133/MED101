@@ -90,7 +90,7 @@ namespace ViveSR.anipal.Eye
                             FocusInfo.transform.name.ToString() + "," + eyeData.verbose_data.combined.eye_data.gaze_direction_normalized.ToString() + "," +
                             eyeData.verbose_data.combined.eye_data.gaze_origin_mm.ToString() + "," + eyeData.verbose_data.left.pupil_diameter_mm.ToString() + "," + eyeData.verbose_data.right.pupil_diameter_mm.ToString(), _dataFileName);
                         _prevFrame = eyeData.frame_sequence;
-                        Debug.Log(_currentObject + _lookedInSec);
+                        //Debug.Log(_currentObject + _lookedInSec);
                     }
                 }
             }

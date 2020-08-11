@@ -15,6 +15,7 @@ public class EnableObject : MonoBehaviour
             for (int i = 0; i <= GObject.Length - 1; i++)
             {
                 GObject[i].SetActive(true);
+                Debug.Log(GObject[i].name + " got activated");
             }
         }
     }
