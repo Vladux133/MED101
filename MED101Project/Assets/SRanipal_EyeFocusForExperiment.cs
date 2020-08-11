@@ -70,26 +70,27 @@ namespace ViveSR.anipal.Eye
                 }
                 if (eye_focus)
                 {
-                    if (FocusInfo.transform.name != _currentObject)
-                    {
-                        if (_lookedInSec >= FocusNumberOfSeconds)
-                        {
-                            WriteToPC(_gameTime + "," + _currentObject + "," + _lookedInSec, _focusFileName);
-                            _currentObject = FocusInfo.transform.name;
-                            _lookedInSec = 0f;
-                        }
-                    }
-                    else
-                    {
-                        _lookedInSec += Time.deltaTime;
-                    }
                     if (_prevFrame != eyeData.frame_sequence)
                     {
+                        if (FocusInfo.transform.name.ToString() != _currentObject)
+                        {
+                            if (_lookedInSec >= FocusNumberOfSeconds)
+                            {
+                                WriteToPC(_gameTime + "," + _currentObject + "," + _lookedInSec, _focusFileName);
+                            }
+                                _currentObject = FocusInfo.transform.name;
+                                _lookedInSec = 0f;         
+                        }
+                        else
+                        {
+                            _lookedInSec += Time.deltaTime;
+                        }
                         ////writes data to file
                         WriteToPC(_gameTime + "," + FocusInfo.point.ToString() + "," + FocusInfo.normal.ToString() + "," +
                             FocusInfo.transform.name.ToString() + "," + eyeData.verbose_data.combined.eye_data.gaze_direction_normalized.ToString() + "," +
                             eyeData.verbose_data.combined.eye_data.gaze_origin_mm.ToString() + "," + eyeData.verbose_data.left.pupil_diameter_mm.ToString() + "," + eyeData.verbose_data.right.pupil_diameter_mm.ToString(), _dataFileName);
                         _prevFrame = eyeData.frame_sequence;
+                        Debug.Log(_currentObject + _lookedInSec);
                     }
                 }
             }
