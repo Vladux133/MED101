@@ -3,18 +3,23 @@ using UnityEditor.Animations;
 
 public class RecordTransformHierarchy : MonoBehaviour
 {
+    private GameObject playerObj;
     public AnimationClip[] clip;
     public int clipToRecord;
 
     private GameObjectRecorder m_Recorder;
 
-    void Start()
+    void OnEnable()
     {
+        Debug.Log("Record Script started");
+        playerObj = GameObject.FindGameObjectWithTag("Player");
+        Debug.Log("PlayerObject Found: " + playerObj.name);
+
         // Create recorder and record the script GameObject.
-        m_Recorder = new GameObjectRecorder(gameObject);
+        m_Recorder = new GameObjectRecorder(playerObj);
 
         // Bind all the Transforms on the GameObject and all its children.
-        m_Recorder.BindComponentsOfType<Transform>(gameObject, true);
+        m_Recorder.BindComponentsOfType<Transform>(playerObj, true);
     }
 
     void LateUpdate()
