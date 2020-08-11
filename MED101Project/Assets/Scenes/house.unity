@@ -2301,7 +2301,7 @@ Transform:
   m_Children:
   - {fileID: 1963778230}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &276183750
 BoxCollider:
@@ -2906,7 +2906,7 @@ Transform:
   m_Children:
   - {fileID: 488175002}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: -179.42601, z: -90.00001}
 --- !u!65 &392552674
 BoxCollider:
@@ -5092,7 +5092,7 @@ Transform:
   m_Children:
   - {fileID: 470144975}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: -7.6120005, z: -90.00001}
 --- !u!65 &581239136
 BoxCollider:
@@ -6283,7 +6283,7 @@ Transform:
   m_Children:
   - {fileID: 1065558528}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 91.157005, z: -90.00001}
 --- !u!65 &681006798
 BoxCollider:
@@ -7305,7 +7305,7 @@ Transform:
   m_Children:
   - {fileID: 1491011268}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 265.661, z: -90.00001}
 --- !u!65 &830663909
 BoxCollider:
@@ -9645,7 +9645,7 @@ Transform:
   m_Children:
   - {fileID: 1405623820}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 55
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 13.689001, z: -90.00001}
 --- !u!114 &1076248967
 MonoBehaviour:
@@ -11747,7 +11747,6 @@ Transform:
   - {fileID: 209473694}
   - {fileID: 1255266820}
   - {fileID: 781140681}
-  - {fileID: 1606283496}
   - {fileID: 276183749}
   - {fileID: 581239135}
   - {fileID: 1931625598}
@@ -11757,6 +11756,7 @@ Transform:
   - {fileID: 681006797}
   - {fileID: 1772674474}
   - {fileID: 1076248966}
+  - {fileID: 1606283496}
   - {fileID: 493119950}
   - {fileID: 13105179}
   - {fileID: 184946495}
@@ -17255,7 +17255,7 @@ GameObject:
   - component: {fileID: 1606283498}
   - component: {fileID: 1606283497}
   m_Layer: 0
-  m_Name: Newspaper 3 (1)
+  m_Name: Get well 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17274,7 +17274,7 @@ Transform:
   m_Children:
   - {fileID: 1043687373}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 46
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: -10.1380005, y: 239.56299, z: -107.386}
 --- !u!114 &1606283497
 MonoBehaviour:
@@ -18761,7 +18761,7 @@ Transform:
   m_Children:
   - {fileID: 1328142911}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 74.815, z: -90.00001}
 --- !u!65 &1762031965
 BoxCollider:
@@ -18980,7 +18980,7 @@ Transform:
   m_Children:
   - {fileID: 168302357}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 88.711006, z: -90.00001}
 --- !u!114 &1772674475
 MonoBehaviour:
@@ -22479,7 +22479,7 @@ Transform:
   m_Children:
   - {fileID: 520996161}
   m_Father: {fileID: 1431771205}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 272.327, z: -90.00001}
 --- !u!65 &1931625599
 BoxCollider:
