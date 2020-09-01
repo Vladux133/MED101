@@ -4283,7 +4283,7 @@ MonoBehaviour:
   - {fileID: 7400000, guid: ca1bb6d33819522499ef849dd77cdf26, type: 2}
   - {fileID: 7400000, guid: 7fc68b6757e42ee459090695d8270748, type: 2}
   - {fileID: 7400000, guid: 2cb6833fc0902b94098d09c2233ee7c6, type: 2}
-  clipToRecord: 3
+  clipToRecord: 8
 --- !u!1 &498551269
 GameObject:
   m_ObjectHideFlags: 0
